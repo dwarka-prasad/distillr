@@ -55,6 +55,44 @@ for (const el of document.querySelectorAll("[data-count]")) {
 // token bars animate to width
 for (const b of document.querySelectorAll(".bar span")) { const w = b.dataset.w; b.style.width = "0%"; inView(b, () => animate(b, { width: [ "0%", w + "%" ] }, { duration: 1, easing: [0.22, 1, 0.36, 1] }), { amount: 0.5 }); }
 for (const b of document.querySelectorAll(".tabs button")) b.onclick = () => { document.querySelectorAll(".tabs button").forEach((x) => x.classList.toggle("on", x === b)); document.querySelectorAll(".tabpanes pre").forEach((p) => p.classList.toggle("on", p.dataset.pane === b.dataset.tab)); };
+// ---- pipeline flow diagram ----
+const flow = document.querySelector(".flow");
+if (flow) {
+  const nodes = [...flow.querySelectorAll(".node")];
+  const conns = [...flow.querySelectorAll(".conn")];
+  const maxTok = Math.max(...nodes.map((n) => Number(n.dataset.tokens || 0)));
+  const fmt = (v) => Math.round(v).toLocaleString();
+  const play = () => {
+    flow.classList.remove("play");
+    nodes.forEach((n) => { n.style.opacity = 0; const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("height", 0); const t = n.querySelector(".n[data-count], .n"); if (t && !t.dataset.count) t.textContent = "0"; });
+    conns.forEach((c) => { c.style.strokeDashoffset = 60; });
+    if (reduce) { nodes.forEach((n) => { n.style.opacity = 1; n.classList.add("lit"); const bar = n.querySelector(".bar"); const tok = Number(n.dataset.tokens); if (bar && tok) { const h = Math.max(4, Math.sqrt(tok / maxTok) * 60); bar.setAttribute("height", h); bar.setAttribute("y", 88 - h); } const t = n.querySelector(".n"); if (t && tok) t.textContent = fmt(tok); }); conns.forEach((c) => { c.style.strokeDashoffset = 0; }); flow.classList.add("play"); return; }
+    let prev = maxTok;
+    nodes.forEach((n, i) => {
+      const tok = Number(n.dataset.tokens || 0);
+      const bar = n.querySelector(".bar"), num = n.querySelector(".n:not([data-count])");
+      const at = i * 0.55;
+      animate(n, { opacity: [0, 1], y: [10, 0] }, { duration: 0.5, delay: at, easing: [0.22, 1, 0.36, 1] }).finished.then(() => n.classList.add("lit"));
+      if (conns[i - 1]) animate(conns[i - 1], { strokeDashoffset: [60, 0] }, { duration: 0.45, delay: at - 0.25, easing: "ease-out" });
+      if (bar && tok) {
+        const h = Math.max(4, Math.sqrt(tok / maxTok) * 60);
+        const from = Math.max(4, Math.sqrt(prev / maxTok) * 60);
+        animate((p) => { const cur = from + (h - from) * p; bar.setAttribute("height", cur); bar.setAttribute("y", 88 - cur); }, { duration: 0.7, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
+        const start = i === 0 ? 0 : prev;
+        animate((p) => { num.textContent = fmt(start + (tok - start) * p); }, { duration: 0.8, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
+        prev = tok;
+      }
+    });
+    setTimeout(() => flow.classList.add("play"), nodes.length * 550);
+  };
+  inView(flow, () => { play(); }, { amount: 0.4 });
+  document.getElementById("replay")?.addEventListener("click", play);
+}
+// ---- cross-page transitions (fallback for browsers without cross-document view transitions) ----
+if (!("startViewTransition" in document) && !reduce) {
+  document.body.classList.add("arrive");
+  for (const a of document.querySelectorAll('a[href^="/distillr/"]')) a.addEventListener("click", (e) => { if (e.metaKey || e.ctrlKey || a.target === "_blank") return; e.preventDefault(); document.body.classList.add("leaving"); setTimeout(() => { location.href = a.href; }, 180); });
+}
 fetch("https://api.github.com/repos/dwarka-prasad/distillr").then((r) => r.ok ? r.json() : null).then((d) => { const el = document.getElementById("stars"); if (d && el) el.textContent = d.stargazers_count; }).catch(() => {});
 </script></body></html>`;
 
