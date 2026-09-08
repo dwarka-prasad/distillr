@@ -65,34 +65,39 @@ if (flow) {
   const widthFor = (tok) => Math.max(6, Math.sqrt(tok / maxTok) * 108);
   const setBar = (n, tok) => { const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("width", widthFor(tok)); };
   const setNum = (n, v) => { const t = n.querySelector(".n"); if (t) t.textContent = fmt(v); };
+  const finish = () => {
+    nodes.forEach((n) => { const inner = n.querySelector(".inner"); inner.style.opacity = 1; inner.style.transform = ""; n.classList.add("lit"); const tok = Number(n.dataset.tokens || 0); if (tok) { setBar(n, tok); setNum(n, tok); } });
+    conns.forEach((c) => { c.style.strokeDashoffset = 0; });
+    flow.classList.add("play");
+  };
   const play = () => {
-    flow.classList.remove("play");
-    nodes.forEach((n) => { n.querySelector(".inner").style.opacity = 0; n.classList.remove("lit"); const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("width", 0); setNum(n, 0); });
-    conns.forEach((c) => { c.style.strokeDashoffset = 60; });
-    if (reduce) {
-      nodes.forEach((n) => { n.querySelector(".inner").style.opacity = 1; n.classList.add("lit"); const tok = Number(n.dataset.tokens || 0); if (tok) { setBar(n, tok); setNum(n, tok); } });
-      conns.forEach((c) => { c.style.strokeDashoffset = 0; });
-      flow.classList.add("play");
-      return;
+    if (reduce) { finish(); return; }
+    try {
+      flow.classList.remove("play");
+      nodes.forEach((n) => { n.querySelector(".inner").style.opacity = 0; n.classList.remove("lit"); const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("width", 0); setNum(n, 0); });
+      conns.forEach((c) => { c.style.strokeDashoffset = 60; });
+      let prev = maxTok;
+      const ease = [0.22, 1, 0.36, 1];
+      nodes.forEach((n, i) => {
+        const tok = Number(n.dataset.tokens || 0);
+        const inner = n.querySelector(".inner"), bar = n.querySelector(".bar");
+        const at = i * 0.55;
+        animate(inner, { opacity: [0, 1], transform: ["translateY(10px)", "translateY(0px)"] }, { duration: 0.5, delay: at, easing: ease }).finished.then(() => n.classList.add("lit"));
+        if (conns[i - 1]) animate(conns[i - 1], { strokeDashoffset: [60, 0] }, { duration: 0.45, delay: Math.max(0, at - 0.25), easing: "ease-out" });
+        if (bar && tok) {
+          const from = i === 0 ? 0 : widthFor(prev), to = widthFor(tok), start = i === 0 ? 0 : prev;
+          animate(0, 1, { duration: 0.8, delay: at + 0.15, easing: ease, onUpdate: (p) => { bar.setAttribute("width", from + (to - from) * p); setNum(n, start + (tok - start) * p); } });
+          prev = tok;
+        }
+      });
+      setTimeout(finish, nodes.length * 550 + 900);
+    } catch (err) {
+      console.warn("flow animation failed, showing final state", err);
+      finish();
     }
-    let prev = maxTok;
-    nodes.forEach((n, i) => {
-      const tok = Number(n.dataset.tokens || 0);
-      const inner = n.querySelector(".inner"), bar = n.querySelector(".bar");
-      const at = i * 0.55;
-      animate(inner, { opacity: [0, 1], y: [10, 0] }, { duration: 0.5, delay: at, easing: [0.22, 1, 0.36, 1] }).finished.then(() => n.classList.add("lit"));
-      if (conns[i - 1]) animate(conns[i - 1], { strokeDashoffset: [60, 0] }, { duration: 0.45, delay: Math.max(0, at - 0.25), easing: "ease-out" });
-      if (bar && tok) {
-        const from = i === 0 ? 0 : widthFor(prev), to = widthFor(tok), start = i === 0 ? 0 : prev;
-        animate((p) => { bar.setAttribute("width", from + (to - from) * p); setNum(n, start + (tok - start) * p); }, { duration: 0.8, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
-        prev = tok;
-      }
-    });
-    setTimeout(() => flow.classList.add("play"), nodes.length * 550);
   };
   // Show the finished state first (no-JS / slow-network safe), then animate on first view.
-  nodes.forEach((n) => { const tok = Number(n.dataset.tokens || 0); if (tok) { setBar(n, tok); setNum(n, tok); } n.classList.add("lit"); });
-  flow.classList.add("play");
+  finish();
   let played = false;
   inView(flow, () => { if (!played) { played = true; play(); } }, { amount: 0.4 });
   document.getElementById("replay")?.addEventListener("click", play);
