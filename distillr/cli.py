@@ -141,14 +141,12 @@ def encode(
     """Re-encode a payload (no trimming) and print it."""
     payload = load(file)
     text, rep = EncodeStage(format=format, flatten=flatten).run(payload.data, _ctx(payload))
-    err.print(
-        f"[dim]{rep.meta.get('format')}: {rep.tokens_before:,} -> {rep.tokens_after:,} tokens"
-        + (f"  {rep.meta['candidates']}" if rep.meta.get("candidates") else "")
-    )
     if out:
         out.write_text(text, encoding="utf-8")
-        console.print(f"[dim]wrote {out}")
+        cands = f"  {rep.meta['candidates']}" if rep.meta.get("candidates") else ""
+        console.print(f"[dim]wrote {out}  {rep.meta.get('format')}: {rep.tokens_before:,} -> {rep.tokens_after:,} tokens{cands}")
     else:
+        # stdout carries only the encoded text so it can be piped or fed to `distillr decode`
         sys.stdout.write(text + "\n")
 
 
