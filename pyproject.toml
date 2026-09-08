@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "distillr"
+version = "0.1.0"
+description = "Unified compression pipeline for LLM inputs: trim what is irrelevant, encode what is left in a token-efficient format, and account for every token saved."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.9"
+authors = [{ name = "Dwarka Prasad Bairwa" }]
+keywords = ["llm", "tokens", "compression", "toon", "prompt", "context", "rag", "cost"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: Apache Software License",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["tiktoken>=0.7", "typer>=0.12", "rich>=13"]
+
+[project.optional-dependencies]
+semantic = ["llmlingua>=0.2"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+distillr = "distillr.cli:app"
+
+[project.urls]
+Homepage = "https://github.com/dwarka-prasad/distillr"
+
+[tool.hatch.build.targets.wheel]
+packages = ["distillr"]
+
+[tool.ruff]
+line-length = 140
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "UP", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"distillr/cli.py" = ["B008", "UP007", "UP045"]   # typer evaluates annotations at runtime on 3.9
+"benchmarks/*" = ["E501"]
+"tests/*" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

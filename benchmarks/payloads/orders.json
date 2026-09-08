@@ -1,0 +1,7060 @@
+[
+  {
+    "order_id": "ORD-10000",
+    "customer": {
+      "name": "Edsger Johnson",
+      "email": "edsger.johnson@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-858",
+        "name": "Thunderbolt cable",
+        "qty": 4,
+        "unit_price": 439.41
+      },
+      {
+        "sku": "SKU-541",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 42.17
+      }
+    ],
+    "total_usd": 1884.15,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "DPD",
+      "tracking": "TRK4126156922"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T11:31:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10001",
+    "customer": {
+      "name": "Frances Hopper",
+      "email": "frances.hopper@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-537",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 104.89
+      },
+      {
+        "sku": "SKU-389",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 306.75
+      }
+    ],
+    "total_usd": 1130.03,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DPD",
+      "tracking": "TRK8648589845"
+    },
+    "notes": "Leave at reception",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-02T17:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10002",
+    "customer": {
+      "name": "Dennis Thompson",
+      "email": "dennis.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-226",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 47.39
+      },
+      {
+        "sku": "SKU-331",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 308.16
+      }
+    ],
+    "total_usd": 497.72,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-28T09:35:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10003",
+    "customer": {
+      "name": "Margaret van Rossum",
+      "email": "margaret.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-354",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 265.4
+      },
+      {
+        "sku": "SKU-471",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 447.63
+      }
+    ],
+    "total_usd": 2404.49,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "UPS",
+      "tracking": "TRK1080980008"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-23T07:40:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10004",
+    "customer": {
+      "name": "Radia Ritchie",
+      "email": "radia.ritchie@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-612",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 85.7
+      },
+      {
+        "sku": "SKU-861",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 60.05
+      }
+    ],
+    "total_usd": 325.9,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-19T12:29:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10005",
+    "customer": {
+      "name": "Edsger Torvalds",
+      "email": "edsger.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-365",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 498.61
+      }
+    ],
+    "total_usd": 1495.83,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-09T04:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10006",
+    "customer": {
+      "name": "Alan Hopper",
+      "email": "alan.hopper@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-765",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 169.9
+      },
+      {
+        "sku": "SKU-994",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 18.97
+      },
+      {
+        "sku": "SKU-239",
+        "name": "Thunderbolt cable",
+        "qty": 4,
+        "unit_price": 339.67
+      }
+    ],
+    "total_usd": 1717.45,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-22T21:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10007",
+    "customer": {
+      "name": "Alan Lovelace",
+      "email": "alan.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-854",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 254.54
+      },
+      {
+        "sku": "SKU-817",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 214.71
+      }
+    ],
+    "total_usd": 1622.46,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-22T17:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10008",
+    "customer": {
+      "name": "Ken Hamilton",
+      "email": "ken.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-243",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 317.21
+      },
+      {
+        "sku": "SKU-849",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 110.01
+      },
+      {
+        "sku": "SKU-452",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 97.56
+      }
+    ],
+    "total_usd": 1147.49,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T03:40:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10009",
+    "customer": {
+      "name": "Grace Berners-Lee",
+      "email": "grace.berners-lee@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-897",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 324.83
+      },
+      {
+        "sku": "SKU-943",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 263.39
+      },
+      {
+        "sku": "SKU-307",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 177.34
+      }
+    ],
+    "total_usd": 1028.95,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-24T22:17:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10010",
+    "customer": {
+      "name": "Grace Allen",
+      "email": "grace.allen@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-491",
+        "name": "Standing desk mat",
+        "qty": 1,
+        "unit_price": 327.41
+      },
+      {
+        "sku": "SKU-331",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 463.63
+      },
+      {
+        "sku": "SKU-763",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 293.16
+      }
+    ],
+    "total_usd": 1670.52,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-02T23:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10011",
+    "customer": {
+      "name": "Guido Liskov",
+      "email": "guido.liskov@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-648",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 174.87
+      },
+      {
+        "sku": "SKU-425",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 277.44
+      },
+      {
+        "sku": "SKU-994",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 426.64
+      }
+    ],
+    "total_usd": 1860.47,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "UPS",
+      "tracking": "TRK4783872740"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-02T12:08:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10012",
+    "customer": {
+      "name": "Ken Perlman",
+      "email": "ken.perlman@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-461",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 376.69
+      },
+      {
+        "sku": "SKU-728",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 276.43
+      },
+      {
+        "sku": "SKU-152",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 130.83
+      }
+    ],
+    "total_usd": 1813.76,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "DHL",
+      "tracking": "TRK8192750196"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-10T02:40:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10013",
+    "customer": {
+      "name": "Guido Thompson",
+      "email": "guido.thompson@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-343",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 65.29
+      },
+      {
+        "sku": "SKU-218",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 321.55
+      },
+      {
+        "sku": "SKU-917",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 232.93
+      }
+    ],
+    "total_usd": 1691.67,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "DPD",
+      "tracking": "TRK1466218516"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-04T21:27:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10014",
+    "customer": {
+      "name": "Anita van Rossum",
+      "email": "anita.vanrossum@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-576",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 365.29
+      },
+      {
+        "sku": "SKU-115",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 36.58
+      },
+      {
+        "sku": "SKU-408",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 63.54
+      }
+    ],
+    "total_usd": 1332.69,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-07T12:12:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10015",
+    "customer": {
+      "name": "Linus Liskov",
+      "email": "linus.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-519",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 269.37
+      },
+      {
+        "sku": "SKU-251",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 150.6
+      },
+      {
+        "sku": "SKU-642",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 382.1
+      }
+    ],
+    "total_usd": 1986.24,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "FedEx",
+      "tracking": "TRK9759939498"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-14T11:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10016",
+    "customer": {
+      "name": "Barbara Allen",
+      "email": "barbara.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-385",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 216.63
+      }
+    ],
+    "total_usd": 866.52,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-10T21:55:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10017",
+    "customer": {
+      "name": "Ada Lovelace",
+      "email": "ada.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-987",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 216.33
+      },
+      {
+        "sku": "SKU-625",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 40.23
+      }
+    ],
+    "total_usd": 729.45,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "DHL",
+      "tracking": "TRK777000000"
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-24T14:51:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10018",
+    "customer": {
+      "name": "Katherine Perlman",
+      "email": "katherine.perlman@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-701",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 228.56
+      },
+      {
+        "sku": "SKU-386",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 199.93
+      }
+    ],
+    "total_usd": 1485.4,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-17T18:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10019",
+    "customer": {
+      "name": "Tim Lovelace",
+      "email": "tim.lovelace@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-225",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 232.91
+      },
+      {
+        "sku": "SKU-563",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 360.26
+      },
+      {
+        "sku": "SKU-353",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 263.78
+      }
+    ],
+    "total_usd": 2803.76,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-15T11:47:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10020",
+    "customer": {
+      "name": "Tim Dijkstra",
+      "email": "tim.dijkstra@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-248",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 411.91
+      },
+      {
+        "sku": "SKU-513",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 145.32
+      }
+    ],
+    "total_usd": 847.87,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-27T00:03:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10021",
+    "customer": {
+      "name": "Barbara Allen",
+      "email": "barbara.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-613",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 25.76
+      }
+    ],
+    "total_usd": 51.52,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-26T21:42:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10022",
+    "customer": {
+      "name": "Guido Perlman",
+      "email": "guido.perlman@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-928",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 422.05
+      }
+    ],
+    "total_usd": 844.1,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-01T09:48:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10023",
+    "customer": {
+      "name": "Katherine van Rossum",
+      "email": "katherine.vanrossum@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-864",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 220.27
+      }
+    ],
+    "total_usd": 660.81,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T00:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10024",
+    "customer": {
+      "name": "Frances Torvalds",
+      "email": "frances.torvalds@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-379",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 177.42
+      }
+    ],
+    "total_usd": 532.26,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-04T13:03:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10025",
+    "customer": {
+      "name": "Dennis Hopper",
+      "email": "dennis.hopper@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-266",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 395.1
+      },
+      {
+        "sku": "SKU-615",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 22.79
+      },
+      {
+        "sku": "SKU-388",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 61.52
+      }
+    ],
+    "total_usd": 1104.65,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "UPS",
+      "tracking": "TRK5161043219"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-07T11:50:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10026",
+    "customer": {
+      "name": "Guido Hopper",
+      "email": "guido.hopper@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-175",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 346.15
+      }
+    ],
+    "total_usd": 346.15,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DHL",
+      "tracking": "TRK1187757567"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-28T19:09:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10027",
+    "customer": {
+      "name": "Ken Lovelace",
+      "email": "ken.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-342",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 146.18
+      },
+      {
+        "sku": "SKU-377",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 380.75
+      },
+      {
+        "sku": "SKU-342",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 290.47
+      }
+    ],
+    "total_usd": 1544.52,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "UPS",
+      "tracking": "TRK2004459551"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-15T05:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10028",
+    "customer": {
+      "name": "Linus Hamilton",
+      "email": "linus.hamilton@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-908",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 57.72
+      },
+      {
+        "sku": "SKU-113",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 24.85
+      }
+    ],
+    "total_usd": 214.84,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-27T09:03:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10029",
+    "customer": {
+      "name": "Tim Hamilton",
+      "email": "tim.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-308",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 203.77
+      }
+    ],
+    "total_usd": 407.54,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "DPD",
+      "tracking": "TRK4282240297"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-02T01:15:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10030",
+    "customer": {
+      "name": "Dennis Turing",
+      "email": "dennis.turing@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-485",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 20.71
+      },
+      {
+        "sku": "SKU-434",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 339.3
+      },
+      {
+        "sku": "SKU-992",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 291.96
+      }
+    ],
+    "total_usd": 1887.86,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": "UPS",
+      "tracking": "TRK9639692923"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-19T07:56:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10031",
+    "customer": {
+      "name": "Alan Dijkstra",
+      "email": "alan.dijkstra@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-559",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 264.58
+      },
+      {
+        "sku": "SKU-796",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 460.52
+      }
+    ],
+    "total_usd": 1185.62,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-03T15:02:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10032",
+    "customer": {
+      "name": "Grace Lamarr",
+      "email": "grace.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-158",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 226.08
+      }
+    ],
+    "total_usd": 226.08,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Pune",
+      "carrier": "BlueDart",
+      "tracking": "TRK1695671684"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T00:43:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10033",
+    "customer": {
+      "name": "Linus Thompson",
+      "email": "linus.thompson@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-800",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 27.06
+      },
+      {
+        "sku": "SKU-905",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 235.8
+      }
+    ],
+    "total_usd": 788.58,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "FedEx",
+      "tracking": "TRK9669542760"
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-18T03:08:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10034",
+    "customer": {
+      "name": "Ada Ritchie",
+      "email": "ada.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-576",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 119.56
+      }
+    ],
+    "total_usd": 358.68,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-28T09:23:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10035",
+    "customer": {
+      "name": "Linus Lamarr",
+      "email": "linus.lamarr@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-766",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 356.35
+      },
+      {
+        "sku": "SKU-462",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 252.63
+      }
+    ],
+    "total_usd": 2079.57,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-19T21:40:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10036",
+    "customer": {
+      "name": "Guido Johnson",
+      "email": "guido.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-145",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 143.41
+      }
+    ],
+    "total_usd": 430.23,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-15T15:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10037",
+    "customer": {
+      "name": "Tim Berners-Lee",
+      "email": "tim.berners-lee@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-302",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 166.08
+      }
+    ],
+    "total_usd": 166.08,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-26T05:45:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10038",
+    "customer": {
+      "name": "Margaret van Rossum",
+      "email": "margaret.vanrossum@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-200",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 352.39
+      }
+    ],
+    "total_usd": 1057.17,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "UPS",
+      "tracking": "TRK8340781777"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-05T22:06:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10039",
+    "customer": {
+      "name": "Ada van Rossum",
+      "email": "ada.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-939",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 76.52
+      },
+      {
+        "sku": "SKU-326",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 90.42
+      },
+      {
+        "sku": "SKU-998",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 176.55
+      }
+    ],
+    "total_usd": 1116.6,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-17T17:54:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10040",
+    "customer": {
+      "name": "Grace Lovelace",
+      "email": "grace.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-865",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 322.49
+      },
+      {
+        "sku": "SKU-807",
+        "name": "Noise-cancelling headset",
+        "qty": 1,
+        "unit_price": 282.56
+      },
+      {
+        "sku": "SKU-907",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 41.23
+      }
+    ],
+    "total_usd": 1291.26,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-10T17:04:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10041",
+    "customer": {
+      "name": "Grace van Rossum",
+      "email": "grace.vanrossum@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-582",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 171.86
+      },
+      {
+        "sku": "SKU-539",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 369.38
+      },
+      {
+        "sku": "SKU-754",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 440.06
+      }
+    ],
+    "total_usd": 1421.36,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "UPS",
+      "tracking": "TRK1310775750"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-09T19:22:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10042",
+    "customer": {
+      "name": "Grace Torvalds",
+      "email": "grace.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-903",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 322.53
+      }
+    ],
+    "total_usd": 967.59,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T12:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10043",
+    "customer": {
+      "name": "Barbara Lamarr",
+      "email": "barbara.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-740",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 200.81
+      }
+    ],
+    "total_usd": 200.81,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Pune",
+      "carrier": "BlueDart",
+      "tracking": "TRK3669574122"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-13T03:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10044",
+    "customer": {
+      "name": "Katherine Hamilton",
+      "email": "katherine.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-551",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 348.05
+      },
+      {
+        "sku": "SKU-651",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 351.16
+      }
+    ],
+    "total_usd": 1398.42,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-09T23:57:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10045",
+    "customer": {
+      "name": "Guido Dijkstra",
+      "email": "guido.dijkstra@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-687",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 220.55
+      }
+    ],
+    "total_usd": 441.1,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "UPS",
+      "tracking": "TRK9249773869"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-25T17:16:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10046",
+    "customer": {
+      "name": "Grace Allen",
+      "email": "grace.allen@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-960",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 278.39
+      }
+    ],
+    "total_usd": 1113.56,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-03T03:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10047",
+    "customer": {
+      "name": "Dennis Perlman",
+      "email": "dennis.perlman@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-602",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 113.81
+      },
+      {
+        "sku": "SKU-228",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 33.3
+      }
+    ],
+    "total_usd": 521.84,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T08:28:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10048",
+    "customer": {
+      "name": "Margaret Thompson",
+      "email": "margaret.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-495",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 201.03
+      },
+      {
+        "sku": "SKU-398",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 359.99
+      },
+      {
+        "sku": "SKU-110",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 472.17
+      }
+    ],
+    "total_usd": 2739.58,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-05T02:03:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10049",
+    "customer": {
+      "name": "Frances Allen",
+      "email": "frances.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-313",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 18.42
+      }
+    ],
+    "total_usd": 55.26,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-08T08:56:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10050",
+    "customer": {
+      "name": "Ada Borg",
+      "email": "ada.borg@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-722",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 451.35
+      }
+    ],
+    "total_usd": 451.35,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-14T17:24:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10051",
+    "customer": {
+      "name": "Ada Thompson",
+      "email": "ada.thompson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-321",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 367.39
+      }
+    ],
+    "total_usd": 1469.56,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-22T04:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10052",
+    "customer": {
+      "name": "Alan Hamilton",
+      "email": "alan.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-547",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 184.72
+      },
+      {
+        "sku": "SKU-857",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 88.25
+      },
+      {
+        "sku": "SKU-203",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 21.26
+      }
+    ],
+    "total_usd": 912.17,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "DHL",
+      "tracking": "TRK4509726888"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-22T13:13:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10053",
+    "customer": {
+      "name": "Katherine Lovelace",
+      "email": "katherine.lovelace@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-937",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 143.88
+      },
+      {
+        "sku": "SKU-516",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 68.85
+      },
+      {
+        "sku": "SKU-203",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 258.79
+      }
+    ],
+    "total_usd": 1385.59,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "UPS",
+      "tracking": "TRK2464551356"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-06T17:12:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10054",
+    "customer": {
+      "name": "Ken Turing",
+      "email": "ken.turing@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-632",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 402.44
+      },
+      {
+        "sku": "SKU-768",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 193.11
+      }
+    ],
+    "total_usd": 2382.2,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-24T06:58:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10055",
+    "customer": {
+      "name": "Guido Allen",
+      "email": "guido.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-273",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 121.94
+      },
+      {
+        "sku": "SKU-248",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 191.22
+      }
+    ],
+    "total_usd": 678.98,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "FedEx",
+      "tracking": "TRK2749141375"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-05T10:15:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10056",
+    "customer": {
+      "name": "Hedy Ritchie",
+      "email": "hedy.ritchie@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-747",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 198.94
+      },
+      {
+        "sku": "SKU-877",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 443.34
+      },
+      {
+        "sku": "SKU-211",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 440.45
+      }
+    ],
+    "total_usd": 2605.91,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "FedEx",
+      "tracking": "TRK3078877537"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-14T03:28:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10057",
+    "customer": {
+      "name": "Linus Liskov",
+      "email": "linus.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-117",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 207.13
+      },
+      {
+        "sku": "SKU-740",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 125.02
+      },
+      {
+        "sku": "SKU-258",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 26.03
+      }
+    ],
+    "total_usd": 1104.59,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-11T06:55:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10058",
+    "customer": {
+      "name": "Frances Ritchie",
+      "email": "frances.ritchie@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-660",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 173.41
+      }
+    ],
+    "total_usd": 520.23,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "UPS",
+      "tracking": "TRK5571593966"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-15T23:12:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10059",
+    "customer": {
+      "name": "Grace Lovelace",
+      "email": "grace.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-922",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 236.54
+      },
+      {
+        "sku": "SKU-894",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 276.4
+      }
+    ],
+    "total_usd": 986.02,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-23T16:55:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10060",
+    "customer": {
+      "name": "Guido Borg",
+      "email": "guido.borg@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-940",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 410.28
+      },
+      {
+        "sku": "SKU-599",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 260.1
+      }
+    ],
+    "total_usd": 1901.22,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "UPS",
+      "tracking": "TRK6413008766"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-16T23:58:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10061",
+    "customer": {
+      "name": "Barbara Thompson",
+      "email": "barbara.thompson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-963",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 237.35
+      },
+      {
+        "sku": "SKU-163",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 421.98
+      },
+      {
+        "sku": "SKU-240",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 310.57
+      }
+    ],
+    "total_usd": 1702.45,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T02:53:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10062",
+    "customer": {
+      "name": "Katherine Johnson",
+      "email": "katherine.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-529",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 100.94
+      },
+      {
+        "sku": "SKU-849",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 333.4
+      }
+    ],
+    "total_usd": 1070.56,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-27T01:53:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10063",
+    "customer": {
+      "name": "Dennis Allen",
+      "email": "dennis.allen@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-901",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 94.3
+      },
+      {
+        "sku": "SKU-384",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 159.57
+      }
+    ],
+    "total_usd": 602.04,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-18T08:01:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10064",
+    "customer": {
+      "name": "Ada Allen",
+      "email": "ada.allen@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-463",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 290.58
+      },
+      {
+        "sku": "SKU-433",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 253.94
+      }
+    ],
+    "total_usd": 798.46,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-14T19:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10065",
+    "customer": {
+      "name": "Guido Hamilton",
+      "email": "guido.hamilton@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-263",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 485.74
+      },
+      {
+        "sku": "SKU-503",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 390.84
+      }
+    ],
+    "total_usd": 3115.48,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T19:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10066",
+    "customer": {
+      "name": "Tim Johnson",
+      "email": "tim.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-583",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 243.24
+      },
+      {
+        "sku": "SKU-453",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 424.44
+      }
+    ],
+    "total_usd": 1092.12,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "DHL",
+      "tracking": "TRK4169435390"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T15:38:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10067",
+    "customer": {
+      "name": "Radia Perlman",
+      "email": "radia.perlman@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-925",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 477.18
+      },
+      {
+        "sku": "SKU-417",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 317.01
+      },
+      {
+        "sku": "SKU-470",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 398.91
+      }
+    ],
+    "total_usd": 3978.21,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-23T02:21:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10068",
+    "customer": {
+      "name": "Frances Perlman",
+      "email": "frances.perlman@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-561",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 316.3
+      },
+      {
+        "sku": "SKU-263",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 494.03
+      },
+      {
+        "sku": "SKU-141",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 144.02
+      }
+    ],
+    "total_usd": 1448.38,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-22T01:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10069",
+    "customer": {
+      "name": "Grace Liskov",
+      "email": "grace.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-526",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 269.98
+      },
+      {
+        "sku": "SKU-356",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 46.79
+      }
+    ],
+    "total_usd": 727.12,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK2676568493"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-24T20:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10070",
+    "customer": {
+      "name": "Frances Turing",
+      "email": "frances.turing@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-240",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 76.27
+      },
+      {
+        "sku": "SKU-106",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 380.01
+      }
+    ],
+    "total_usd": 836.29,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-10T07:29:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10071",
+    "customer": {
+      "name": "Ada Dijkstra",
+      "email": "ada.dijkstra@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-418",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 220.99
+      },
+      {
+        "sku": "SKU-337",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 69.44
+      },
+      {
+        "sku": "SKU-510",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 108.44
+      }
+    ],
+    "total_usd": 945.18,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-22T17:24:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10072",
+    "customer": {
+      "name": "Edsger Hopper",
+      "email": "edsger.hopper@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-621",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 393.68
+      },
+      {
+        "sku": "SKU-965",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 287.65
+      },
+      {
+        "sku": "SKU-307",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 458.25
+      }
+    ],
+    "total_usd": 2843.44,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-17T04:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10073",
+    "customer": {
+      "name": "Ada Ritchie",
+      "email": "ada.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-563",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 26.73
+      },
+      {
+        "sku": "SKU-945",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 444.37
+      }
+    ],
+    "total_usd": 915.47,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "DHL",
+      "tracking": "TRK4599975561"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-01T18:42:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10074",
+    "customer": {
+      "name": "Radia Lamarr",
+      "email": "radia.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-494",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 251.57
+      },
+      {
+        "sku": "SKU-455",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 298.23
+      }
+    ],
+    "total_usd": 1304.51,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "UPS",
+      "tracking": "TRK3097051787"
+    },
+    "notes": "Leave at reception",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-01T13:49:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10075",
+    "customer": {
+      "name": "Tim Berners-Lee",
+      "email": "tim.berners-lee@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-342",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 424.99
+      },
+      {
+        "sku": "SKU-391",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 190.73
+      }
+    ],
+    "total_usd": 1612.9,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "DHL",
+      "tracking": "TRK6220785756"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-10T19:31:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10076",
+    "customer": {
+      "name": "Radia Johnson",
+      "email": "radia.johnson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-439",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 116.36
+      }
+    ],
+    "total_usd": 116.36,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-17T20:46:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10077",
+    "customer": {
+      "name": "Grace Thompson",
+      "email": "grace.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-689",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 65.71
+      },
+      {
+        "sku": "SKU-676",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 303.25
+      },
+      {
+        "sku": "SKU-891",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 389.53
+      }
+    ],
+    "total_usd": 1972.22,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-09T22:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10078",
+    "customer": {
+      "name": "Margaret Ritchie",
+      "email": "margaret.ritchie@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-575",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 198.28
+      },
+      {
+        "sku": "SKU-700",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 382.7
+      },
+      {
+        "sku": "SKU-470",
+        "name": "Standing desk mat",
+        "qty": 1,
+        "unit_price": 268.13
+      }
+    ],
+    "total_usd": 1231.81,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-26T00:36:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10079",
+    "customer": {
+      "name": "Frances Hopper",
+      "email": "frances.hopper@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-927",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 189.11
+      },
+      {
+        "sku": "SKU-726",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 341.71
+      },
+      {
+        "sku": "SKU-841",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 235.42
+      }
+    ],
+    "total_usd": 2345.03,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-14T06:45:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10080",
+    "customer": {
+      "name": "Anita Liskov",
+      "email": "anita.liskov@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-296",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 377.26
+      }
+    ],
+    "total_usd": 1509.04,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK3898504418"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-24T20:21:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10081",
+    "customer": {
+      "name": "Alan Berners-Lee",
+      "email": "alan.berners-lee@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-371",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 300.07
+      },
+      {
+        "sku": "SKU-158",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 355.88
+      }
+    ],
+    "total_usd": 1256.09,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK7240394083"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T16:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10082",
+    "customer": {
+      "name": "Frances Ritchie",
+      "email": "frances.ritchie@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-584",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 380.6
+      },
+      {
+        "sku": "SKU-681",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 394.26
+      },
+      {
+        "sku": "SKU-266",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 58.18
+      }
+    ],
+    "total_usd": 1710.6,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-05T16:11:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10083",
+    "customer": {
+      "name": "Ken van Rossum",
+      "email": "ken.vanrossum@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-906",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 64.35
+      }
+    ],
+    "total_usd": 64.35,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": "UPS",
+      "tracking": "TRK7289425730"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-15T20:16:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10084",
+    "customer": {
+      "name": "Radia van Rossum",
+      "email": "radia.vanrossum@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-761",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 186.91
+      },
+      {
+        "sku": "SKU-341",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 296.41
+      },
+      {
+        "sku": "SKU-148",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 470.07
+      }
+    ],
+    "total_usd": 2673.26,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "DHL",
+      "tracking": "TRK2772062242"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-12T02:54:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10085",
+    "customer": {
+      "name": "Linus Allen",
+      "email": "linus.allen@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-973",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 62.04
+      },
+      {
+        "sku": "SKU-217",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 75.75
+      },
+      {
+        "sku": "SKU-217",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 56.61
+      }
+    ],
+    "total_usd": 564.06,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-13T08:46:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10086",
+    "customer": {
+      "name": "Ada Liskov",
+      "email": "ada.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-598",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 290.38
+      },
+      {
+        "sku": "SKU-464",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 185.21
+      }
+    ],
+    "total_usd": 660.8,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-02T17:35:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10087",
+    "customer": {
+      "name": "Hedy Borg",
+      "email": "hedy.borg@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-244",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 452.65
+      },
+      {
+        "sku": "SKU-842",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 269.74
+      },
+      {
+        "sku": "SKU-658",
+        "name": "Desk lamp",
+        "qty": 1,
+        "unit_price": 69.5
+      }
+    ],
+    "total_usd": 1697.19,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-17T08:56:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10088",
+    "customer": {
+      "name": "Ada Lovelace",
+      "email": "ada.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-941",
+        "name": "Ergonomic mouse",
+        "qty": 1,
+        "unit_price": 49.13
+      },
+      {
+        "sku": "SKU-893",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 229.7
+      }
+    ],
+    "total_usd": 967.93,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "DHL",
+      "tracking": "TRK777000001"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-07T18:46:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10089",
+    "customer": {
+      "name": "Grace Lamarr",
+      "email": "grace.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-480",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 88.83
+      },
+      {
+        "sku": "SKU-951",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 417.88
+      },
+      {
+        "sku": "SKU-212",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 150.81
+      }
+    ],
+    "total_usd": 1705.49,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-01T22:38:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10090",
+    "customer": {
+      "name": "Dennis Perlman",
+      "email": "dennis.perlman@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-669",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 292.72
+      },
+      {
+        "sku": "SKU-669",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 30.39
+      },
+      {
+        "sku": "SKU-753",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 275.92
+      }
+    ],
+    "total_usd": 659.81,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-19T23:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10091",
+    "customer": {
+      "name": "Guido Dijkstra",
+      "email": "guido.dijkstra@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-326",
+        "name": "Thunderbolt cable",
+        "qty": 4,
+        "unit_price": 325.43
+      },
+      {
+        "sku": "SKU-659",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 392.72
+      }
+    ],
+    "total_usd": 2872.6,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-13T22:16:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10092",
+    "customer": {
+      "name": "Radia Thompson",
+      "email": "radia.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-903",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 284.38
+      },
+      {
+        "sku": "SKU-754",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 252.95
+      }
+    ],
+    "total_usd": 821.71,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DPD",
+      "tracking": "TRK8605103506"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-09T03:42:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10093",
+    "customer": {
+      "name": "Tim van Rossum",
+      "email": "tim.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-919",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 202.03
+      },
+      {
+        "sku": "SKU-377",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 334.62
+      },
+      {
+        "sku": "SKU-622",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 354.95
+      }
+    ],
+    "total_usd": 2097.49,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-27T01:13:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10094",
+    "customer": {
+      "name": "Dennis Johnson",
+      "email": "dennis.johnson@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-763",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 325.34
+      },
+      {
+        "sku": "SKU-898",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 441.0
+      },
+      {
+        "sku": "SKU-985",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 462.21
+      }
+    ],
+    "total_usd": 3244.65,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "BlueDart",
+      "tracking": "TRK3457471905"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-16T17:00:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10095",
+    "customer": {
+      "name": "Edsger Lamarr",
+      "email": "edsger.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-802",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 188.62
+      }
+    ],
+    "total_usd": 377.24,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-24T21:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10096",
+    "customer": {
+      "name": "Frances Berners-Lee",
+      "email": "frances.berners-lee@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-247",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 454.9
+      }
+    ],
+    "total_usd": 454.9,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-22T03:13:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10097",
+    "customer": {
+      "name": "Alan Allen",
+      "email": "alan.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-246",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 129.44
+      },
+      {
+        "sku": "SKU-335",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 361.69
+      },
+      {
+        "sku": "SKU-394",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 135.19
+      }
+    ],
+    "total_usd": 1884.71,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-14T13:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10098",
+    "customer": {
+      "name": "Grace Ritchie",
+      "email": "grace.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-546",
+        "name": "Desk lamp",
+        "qty": 1,
+        "unit_price": 245.35
+      },
+      {
+        "sku": "SKU-272",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 282.23
+      },
+      {
+        "sku": "SKU-680",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 92.94
+      }
+    ],
+    "total_usd": 995.69,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "FedEx",
+      "tracking": "TRK2122498872"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-20T06:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10099",
+    "customer": {
+      "name": "Anita Hopper",
+      "email": "anita.hopper@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-802",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 32.59
+      }
+    ],
+    "total_usd": 32.59,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": "BlueDart",
+      "tracking": "TRK9159299557"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-01T14:17:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10100",
+    "customer": {
+      "name": "Tim Allen",
+      "email": "tim.allen@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-373",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 417.82
+      }
+    ],
+    "total_usd": 1671.28,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-07T21:23:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10101",
+    "customer": {
+      "name": "Anita Lamarr",
+      "email": "anita.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-158",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 148.83
+      },
+      {
+        "sku": "SKU-291",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 308.03
+      }
+    ],
+    "total_usd": 903.35,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-09T19:39:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10102",
+    "customer": {
+      "name": "Tim Turing",
+      "email": "tim.turing@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-206",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 479.91
+      }
+    ],
+    "total_usd": 1919.64,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-20T01:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10103",
+    "customer": {
+      "name": "Linus Borg",
+      "email": "linus.borg@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-400",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 453.2
+      },
+      {
+        "sku": "SKU-622",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 9.13
+      },
+      {
+        "sku": "SKU-597",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 493.72
+      }
+    ],
+    "total_usd": 3343.61,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-04T18:56:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10104",
+    "customer": {
+      "name": "Alan Lovelace",
+      "email": "alan.lovelace@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-699",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 175.71
+      }
+    ],
+    "total_usd": 527.13,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T17:50:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10105",
+    "customer": {
+      "name": "Katherine Johnson",
+      "email": "katherine.johnson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-440",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 331.6
+      }
+    ],
+    "total_usd": 331.6,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "BlueDart",
+      "tracking": "TRK6394943909"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-20T02:48:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10106",
+    "customer": {
+      "name": "Frances Berners-Lee",
+      "email": "frances.berners-lee@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-378",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 402.17
+      }
+    ],
+    "total_usd": 804.34,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-20T02:26:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10107",
+    "customer": {
+      "name": "Anita Lamarr",
+      "email": "anita.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-243",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 173.86
+      }
+    ],
+    "total_usd": 347.72,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "FedEx",
+      "tracking": "TRK6895098881"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-21T19:37:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10108",
+    "customer": {
+      "name": "Ada Allen",
+      "email": "ada.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-761",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 345.72
+      }
+    ],
+    "total_usd": 1037.16,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Pune",
+      "carrier": "FedEx",
+      "tracking": "TRK1377454157"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-10T17:45:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10109",
+    "customer": {
+      "name": "Linus Dijkstra",
+      "email": "linus.dijkstra@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-487",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 243.69
+      }
+    ],
+    "total_usd": 487.38,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T13:16:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10110",
+    "customer": {
+      "name": "Ada Ritchie",
+      "email": "ada.ritchie@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-718",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 79.4
+      }
+    ],
+    "total_usd": 238.2,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "BlueDart",
+      "tracking": "TRK1103874766"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-13T13:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10111",
+    "customer": {
+      "name": "Anita Johnson",
+      "email": "anita.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-745",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 89.56
+      },
+      {
+        "sku": "SKU-719",
+        "name": "Desk lamp",
+        "qty": 1,
+        "unit_price": 451.33
+      }
+    ],
+    "total_usd": 540.89,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-02T06:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10112",
+    "customer": {
+      "name": "Ken Johnson",
+      "email": "ken.johnson@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-461",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 435.42
+      }
+    ],
+    "total_usd": 435.42,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-27T06:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10113",
+    "customer": {
+      "name": "Ada Torvalds",
+      "email": "ada.torvalds@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-854",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 40.74
+      },
+      {
+        "sku": "SKU-882",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 426.93
+      },
+      {
+        "sku": "SKU-901",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 45.44
+      }
+    ],
+    "total_usd": 2052.44,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "FedEx",
+      "tracking": "TRK3884459168"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-18T02:53:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10114",
+    "customer": {
+      "name": "Katherine Torvalds",
+      "email": "katherine.torvalds@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-429",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 46.58
+      },
+      {
+        "sku": "SKU-466",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 324.94
+      }
+    ],
+    "total_usd": 696.46,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DPD",
+      "tracking": "TRK4243868506"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-16T11:12:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10115",
+    "customer": {
+      "name": "Grace Dijkstra",
+      "email": "grace.dijkstra@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-968",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 365.64
+      },
+      {
+        "sku": "SKU-999",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 16.08
+      },
+      {
+        "sku": "SKU-210",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 20.79
+      }
+    ],
+    "total_usd": 1536.3,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-16T13:20:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10116",
+    "customer": {
+      "name": "Hedy Lamarr",
+      "email": "hedy.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-464",
+        "name": "Noise-cancelling headset",
+        "qty": 4,
+        "unit_price": 133.95
+      },
+      {
+        "sku": "SKU-342",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 371.27
+      }
+    ],
+    "total_usd": 1278.34,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "DHL",
+      "tracking": "TRK8072664543"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-20T18:48:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10117",
+    "customer": {
+      "name": "Hedy Lovelace",
+      "email": "hedy.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-793",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 189.93
+      }
+    ],
+    "total_usd": 569.79,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-21T08:00:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10118",
+    "customer": {
+      "name": "Edsger Dijkstra",
+      "email": "edsger.dijkstra@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-950",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 388.9
+      },
+      {
+        "sku": "SKU-974",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 156.64
+      },
+      {
+        "sku": "SKU-896",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 308.98
+      }
+    ],
+    "total_usd": 1709.04,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "BlueDart",
+      "tracking": "TRK4997452317"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-17T08:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10119",
+    "customer": {
+      "name": "Dennis Hamilton",
+      "email": "dennis.hamilton@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-634",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 407.2
+      }
+    ],
+    "total_usd": 1221.6,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK5461411162"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-14T09:23:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10120",
+    "customer": {
+      "name": "Grace Borg",
+      "email": "grace.borg@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-505",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 112.69
+      },
+      {
+        "sku": "SKU-820",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 88.33
+      }
+    ],
+    "total_usd": 691.39,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-21T08:20:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10121",
+    "customer": {
+      "name": "Ken Johnson",
+      "email": "ken.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-445",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 83.5
+      },
+      {
+        "sku": "SKU-364",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 426.34
+      }
+    ],
+    "total_usd": 1103.18,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-17T22:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10122",
+    "customer": {
+      "name": "Linus Dijkstra",
+      "email": "linus.dijkstra@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-547",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 419.3
+      },
+      {
+        "sku": "SKU-577",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 127.45
+      },
+      {
+        "sku": "SKU-439",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 455.96
+      }
+    ],
+    "total_usd": 3755.94,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "BlueDart",
+      "tracking": "TRK8797248596"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-05T20:08:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10123",
+    "customer": {
+      "name": "Edsger Hopper",
+      "email": "edsger.hopper@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-247",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 278.43
+      }
+    ],
+    "total_usd": 835.29,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T12:35:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10124",
+    "customer": {
+      "name": "Hedy Thompson",
+      "email": "hedy.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-513",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 25.98
+      }
+    ],
+    "total_usd": 51.96,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-04T23:26:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10125",
+    "customer": {
+      "name": "Radia Dijkstra",
+      "email": "radia.dijkstra@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-118",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 407.62
+      }
+    ],
+    "total_usd": 1222.86,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-16T19:17:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10126",
+    "customer": {
+      "name": "Katherine Lamarr",
+      "email": "katherine.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-338",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 452.93
+      }
+    ],
+    "total_usd": 905.86,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-12T07:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10127",
+    "customer": {
+      "name": "Barbara Liskov",
+      "email": "barbara.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-823",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 434.23
+      },
+      {
+        "sku": "SKU-267",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 417.51
+      },
+      {
+        "sku": "SKU-156",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 109.7
+      }
+    ],
+    "total_usd": 2664.92,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-22T12:09:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10128",
+    "customer": {
+      "name": "Radia van Rossum",
+      "email": "radia.vanrossum@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-782",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 13.93
+      },
+      {
+        "sku": "SKU-926",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 461.63
+      },
+      {
+        "sku": "SKU-470",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 54.12
+      }
+    ],
+    "total_usd": 2050.67,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-24T07:34:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10129",
+    "customer": {
+      "name": "Alan Lovelace",
+      "email": "alan.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-817",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 241.89
+      },
+      {
+        "sku": "SKU-785",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 305.33
+      }
+    ],
+    "total_usd": 1883.55,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-18T23:50:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10130",
+    "customer": {
+      "name": "Edsger Allen",
+      "email": "edsger.allen@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-901",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 350.35
+      }
+    ],
+    "total_usd": 1401.4,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-10T17:21:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10131",
+    "customer": {
+      "name": "Alan van Rossum",
+      "email": "alan.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-268",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 490.18
+      },
+      {
+        "sku": "SKU-113",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 100.7
+      },
+      {
+        "sku": "SKU-985",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 340.86
+      }
+    ],
+    "total_usd": 2603.68,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-23T22:06:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10132",
+    "customer": {
+      "name": "Katherine Thompson",
+      "email": "katherine.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-690",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 71.86
+      }
+    ],
+    "total_usd": 287.44,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-21T23:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10133",
+    "customer": {
+      "name": "Tim Thompson",
+      "email": "tim.thompson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-703",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 79.35
+      },
+      {
+        "sku": "SKU-568",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 441.39
+      },
+      {
+        "sku": "SKU-416",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 223.56
+      }
+    ],
+    "total_usd": 1935.72,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "UPS",
+      "tracking": "TRK3199712534"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-01T17:06:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10134",
+    "customer": {
+      "name": "Alan Torvalds",
+      "email": "alan.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-702",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 497.35
+      }
+    ],
+    "total_usd": 497.35,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "BlueDart",
+      "tracking": "TRK1572118472"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-14T21:51:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10135",
+    "customer": {
+      "name": "Radia Johnson",
+      "email": "radia.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-570",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 420.09
+      },
+      {
+        "sku": "SKU-553",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 191.92
+      },
+      {
+        "sku": "SKU-960",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 410.69
+      }
+    ],
+    "total_usd": 3488.19,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "DHL",
+      "tracking": "TRK5927888281"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-03T18:51:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10136",
+    "customer": {
+      "name": "Radia Liskov",
+      "email": "radia.liskov@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-462",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 378.9
+      },
+      {
+        "sku": "SKU-879",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 450.38
+      }
+    ],
+    "total_usd": 2108.94,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-23T04:57:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10137",
+    "customer": {
+      "name": "Grace Liskov",
+      "email": "grace.liskov@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-212",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 100.72
+      },
+      {
+        "sku": "SKU-865",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 326.05
+      }
+    ],
+    "total_usd": 1707.08,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-16T15:18:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10138",
+    "customer": {
+      "name": "Katherine Dijkstra",
+      "email": "katherine.dijkstra@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-735",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 462.38
+      }
+    ],
+    "total_usd": 462.38,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "DHL",
+      "tracking": "TRK4626099613"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T10:54:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10139",
+    "customer": {
+      "name": "Anita Lamarr",
+      "email": "anita.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-231",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 459.21
+      }
+    ],
+    "total_usd": 918.42,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-06T02:02:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10140",
+    "customer": {
+      "name": "Linus Liskov",
+      "email": "linus.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-177",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 482.22
+      },
+      {
+        "sku": "SKU-428",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 380.91
+      },
+      {
+        "sku": "SKU-864",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 239.09
+      }
+    ],
+    "total_usd": 2301.71,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-26T15:39:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10141",
+    "customer": {
+      "name": "Hedy Ritchie",
+      "email": "hedy.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-236",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 280.13
+      }
+    ],
+    "total_usd": 1120.52,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "FedEx",
+      "tracking": "TRK5376598300"
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-27T08:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10142",
+    "customer": {
+      "name": "Frances Perlman",
+      "email": "frances.perlman@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-653",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 70.41
+      },
+      {
+        "sku": "SKU-421",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 433.73
+      }
+    ],
+    "total_usd": 1078.69,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-21T08:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10143",
+    "customer": {
+      "name": "Ada Lovelace",
+      "email": "ada.lovelace@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-184",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 454.32
+      },
+      {
+        "sku": "SKU-500",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 271.08
+      },
+      {
+        "sku": "SKU-727",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 467.16
+      }
+    ],
+    "total_usd": 4228.08,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": "DHL",
+      "tracking": "TRK777000002"
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-04T13:21:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10144",
+    "customer": {
+      "name": "Radia Lamarr",
+      "email": "radia.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-339",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 325.27
+      }
+    ],
+    "total_usd": 975.81,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK9186560143"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-04T11:41:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10145",
+    "customer": {
+      "name": "Alan Turing",
+      "email": "alan.turing@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-538",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 32.27
+      },
+      {
+        "sku": "SKU-167",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 381.76
+      }
+    ],
+    "total_usd": 795.79,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-22T20:15:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10146",
+    "customer": {
+      "name": "Ada Hamilton",
+      "email": "ada.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-908",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 431.67
+      },
+      {
+        "sku": "SKU-420",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 304.97
+      }
+    ],
+    "total_usd": 2641.59,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-27T19:54:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10147",
+    "customer": {
+      "name": "Frances Liskov",
+      "email": "frances.liskov@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-829",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 198.08
+      },
+      {
+        "sku": "SKU-264",
+        "name": "27in monitor",
+        "qty": 3,
+        "unit_price": 274.63
+      },
+      {
+        "sku": "SKU-176",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 74.34
+      }
+    ],
+    "total_usd": 1690.55,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-28T03:45:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10148",
+    "customer": {
+      "name": "Guido Johnson",
+      "email": "guido.johnson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-318",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 257.63
+      },
+      {
+        "sku": "SKU-823",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 44.78
+      }
+    ],
+    "total_usd": 604.82,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-18T23:39:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10149",
+    "customer": {
+      "name": "Linus Ritchie",
+      "email": "linus.ritchie@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-512",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 276.0
+      },
+      {
+        "sku": "SKU-590",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 68.9
+      }
+    ],
+    "total_usd": 551.6,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-08T09:27:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10150",
+    "customer": {
+      "name": "Barbara Hamilton",
+      "email": "barbara.hamilton@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-565",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 427.61
+      },
+      {
+        "sku": "SKU-497",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 30.16
+      },
+      {
+        "sku": "SKU-653",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 337.66
+      }
+    ],
+    "total_usd": 2476.24,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-22T20:10:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10151",
+    "customer": {
+      "name": "Tim Thompson",
+      "email": "tim.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-849",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 152.7
+      },
+      {
+        "sku": "SKU-407",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 111.41
+      },
+      {
+        "sku": "SKU-542",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 256.88
+      }
+    ],
+    "total_usd": 1417.5,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-03T20:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10152",
+    "customer": {
+      "name": "Margaret Torvalds",
+      "email": "margaret.torvalds@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-637",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 212.8
+      },
+      {
+        "sku": "SKU-308",
+        "name": "Noise-cancelling headset",
+        "qty": 1,
+        "unit_price": 372.35
+      },
+      {
+        "sku": "SKU-948",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 234.66
+      }
+    ],
+    "total_usd": 1501.93,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-11T14:34:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10153",
+    "customer": {
+      "name": "Margaret Ritchie",
+      "email": "margaret.ritchie@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-743",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 62.42
+      }
+    ],
+    "total_usd": 62.42,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK3599847577"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-04T12:49:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10154",
+    "customer": {
+      "name": "Grace Borg",
+      "email": "grace.borg@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-595",
+        "name": "Laptop stand",
+        "qty": 4,
+        "unit_price": 123.56
+      }
+    ],
+    "total_usd": 494.24,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": "DHL",
+      "tracking": "TRK3966495923"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-15T12:46:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10155",
+    "customer": {
+      "name": "Edsger Lamarr",
+      "email": "edsger.lamarr@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-365",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 322.81
+      }
+    ],
+    "total_usd": 968.43,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "UPS",
+      "tracking": "TRK2898675459"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-13T17:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10156",
+    "customer": {
+      "name": "Hedy Dijkstra",
+      "email": "hedy.dijkstra@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-273",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 278.8
+      }
+    ],
+    "total_usd": 1115.2,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": "UPS",
+      "tracking": "TRK5558955113"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-19T09:47:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10157",
+    "customer": {
+      "name": "Dennis Allen",
+      "email": "dennis.allen@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-626",
+        "name": "Thunderbolt cable",
+        "qty": 4,
+        "unit_price": 125.35
+      },
+      {
+        "sku": "SKU-275",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 456.75
+      }
+    ],
+    "total_usd": 2328.4,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-27T01:56:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10158",
+    "customer": {
+      "name": "Katherine Torvalds",
+      "email": "katherine.torvalds@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-498",
+        "name": "Laptop stand",
+        "qty": 2,
+        "unit_price": 333.44
+      }
+    ],
+    "total_usd": 666.88,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "UPS",
+      "tracking": "TRK2552514191"
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-21T23:36:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10159",
+    "customer": {
+      "name": "Ada Perlman",
+      "email": "ada.perlman@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-465",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 227.63
+      },
+      {
+        "sku": "SKU-511",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 438.65
+      }
+    ],
+    "total_usd": 1787.82,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": "BlueDart",
+      "tracking": "TRK7952315177"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-05T16:11:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10160",
+    "customer": {
+      "name": "Grace Perlman",
+      "email": "grace.perlman@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-701",
+        "name": "27in monitor",
+        "qty": 1,
+        "unit_price": 287.85
+      }
+    ],
+    "total_usd": 287.85,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Pune",
+      "carrier": "DHL",
+      "tracking": "TRK1147190474"
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-06T02:39:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10161",
+    "customer": {
+      "name": "Tim van Rossum",
+      "email": "tim.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-814",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 479.5
+      }
+    ],
+    "total_usd": 479.5,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-02T00:23:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10162",
+    "customer": {
+      "name": "Frances Torvalds",
+      "email": "frances.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-752",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 177.76
+      }
+    ],
+    "total_usd": 711.04,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-24T13:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10163",
+    "customer": {
+      "name": "Anita Borg",
+      "email": "anita.borg@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-372",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 148.54
+      }
+    ],
+    "total_usd": 445.62,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-18T07:09:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10164",
+    "customer": {
+      "name": "Ken Thompson",
+      "email": "ken.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-421",
+        "name": "Desk lamp",
+        "qty": 4,
+        "unit_price": 394.66
+      }
+    ],
+    "total_usd": 1578.64,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "DHL",
+      "tracking": "TRK5919472524"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-01T05:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10165",
+    "customer": {
+      "name": "Dennis Johnson",
+      "email": "dennis.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-764",
+        "name": "Thunderbolt cable",
+        "qty": 3,
+        "unit_price": 195.03
+      },
+      {
+        "sku": "SKU-460",
+        "name": "USB-C dock",
+        "qty": 3,
+        "unit_price": 314.93
+      }
+    ],
+    "total_usd": 1529.88,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "UPS",
+      "tracking": "TRK1217067834"
+    },
+    "notes": "Gift wrap requested",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-10T12:07:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10166",
+    "customer": {
+      "name": "Dennis Torvalds",
+      "email": "dennis.torvalds@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-296",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 300.03
+      }
+    ],
+    "total_usd": 600.06,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "DHL",
+      "tracking": "TRK9615628511"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-17T07:47:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10167",
+    "customer": {
+      "name": "Linus Berners-Lee",
+      "email": "linus.berners-lee@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-315",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 288.94
+      }
+    ],
+    "total_usd": 866.82,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-21T09:34:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10168",
+    "customer": {
+      "name": "Anita Thompson",
+      "email": "anita.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-186",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 472.54
+      },
+      {
+        "sku": "SKU-963",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 245.94
+      },
+      {
+        "sku": "SKU-913",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 46.31
+      }
+    ],
+    "total_usd": 2447.69,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": "DPD",
+      "tracking": "TRK4372533683"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-07T17:51:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10169",
+    "customer": {
+      "name": "Ada Berners-Lee",
+      "email": "ada.berners-lee@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-689",
+        "name": "Mechanical keyboard",
+        "qty": 4,
+        "unit_price": 488.66
+      }
+    ],
+    "total_usd": 1954.64,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T00:59:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10170",
+    "customer": {
+      "name": "Linus Allen",
+      "email": "linus.allen@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-737",
+        "name": "Standing desk mat",
+        "qty": 1,
+        "unit_price": 260.84
+      }
+    ],
+    "total_usd": 260.84,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-20T20:12:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10171",
+    "customer": {
+      "name": "Ada Turing",
+      "email": "ada.turing@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-252",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 57.38
+      },
+      {
+        "sku": "SKU-622",
+        "name": "Noise-cancelling headset",
+        "qty": 1,
+        "unit_price": 332.96
+      }
+    ],
+    "total_usd": 562.48,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Leave at reception",
+    "tags": [],
+    "created_at": "2026-08-08T04:45:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10172",
+    "customer": {
+      "name": "Ken Ritchie",
+      "email": "ken.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-441",
+        "name": "Thunderbolt cable",
+        "qty": 1,
+        "unit_price": 378.56
+      }
+    ],
+    "total_usd": 378.56,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Gift wrap requested",
+    "tags": [],
+    "created_at": "2026-08-19T09:50:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10173",
+    "customer": {
+      "name": "Tim Lamarr",
+      "email": "tim.lamarr@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-151",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 18.49
+      }
+    ],
+    "total_usd": 55.47,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-21T19:20:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10174",
+    "customer": {
+      "name": "Barbara Ritchie",
+      "email": "barbara.ritchie@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-839",
+        "name": "Laptop stand",
+        "qty": 3,
+        "unit_price": 34.62
+      },
+      {
+        "sku": "SKU-981",
+        "name": "Standing desk mat",
+        "qty": 1,
+        "unit_price": 140.37
+      },
+      {
+        "sku": "SKU-690",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 140.5
+      }
+    ],
+    "total_usd": 806.23,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "UPS",
+      "tracking": "TRK7917971794"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-24T20:54:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10175",
+    "customer": {
+      "name": "Frances Lovelace",
+      "email": "frances.lovelace@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-816",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 228.4
+      },
+      {
+        "sku": "SKU-101",
+        "name": "USB-C dock",
+        "qty": 4,
+        "unit_price": 271.18
+      },
+      {
+        "sku": "SKU-287",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 268.64
+      }
+    ],
+    "total_usd": 2307.2,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "UPS",
+      "tracking": "TRK2455162868"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-21T14:08:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10176",
+    "customer": {
+      "name": "Hedy Ritchie",
+      "email": "hedy.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-852",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 214.07
+      },
+      {
+        "sku": "SKU-100",
+        "name": "Thunderbolt cable",
+        "qty": 4,
+        "unit_price": 188.41
+      }
+    ],
+    "total_usd": 1609.92,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-06T21:51:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10177",
+    "customer": {
+      "name": "Guido van Rossum",
+      "email": "guido.vanrossum@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-553",
+        "name": "Standing desk mat",
+        "qty": 4,
+        "unit_price": 92.33
+      }
+    ],
+    "total_usd": 369.32,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-03T13:55:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10178",
+    "customer": {
+      "name": "Ken Hopper",
+      "email": "ken.hopper@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-137",
+        "name": "Standing desk mat",
+        "qty": 3,
+        "unit_price": 462.47
+      },
+      {
+        "sku": "SKU-509",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 484.81
+      },
+      {
+        "sku": "SKU-278",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 80.71
+      }
+    ],
+    "total_usd": 2599.16,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DHL",
+      "tracking": "TRK4099065039"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-16T08:27:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10179",
+    "customer": {
+      "name": "Grace Berners-Lee",
+      "email": "grace.berners-lee@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-470",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 397.69
+      }
+    ],
+    "total_usd": 795.38,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "FedEx",
+      "tracking": "TRK1359827618"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-19T09:35:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10180",
+    "customer": {
+      "name": "Dennis Ritchie",
+      "email": "dennis.ritchie@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-653",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 365.36
+      }
+    ],
+    "total_usd": 365.36,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-02T15:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10181",
+    "customer": {
+      "name": "Anita Borg",
+      "email": "anita.borg@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-223",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 495.83
+      }
+    ],
+    "total_usd": 495.83,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "DPD",
+      "tracking": "TRK7131686595"
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-02T04:14:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10182",
+    "customer": {
+      "name": "Dennis Turing",
+      "email": "dennis.turing@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-542",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 146.68
+      },
+      {
+        "sku": "SKU-475",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 477.66
+      }
+    ],
+    "total_usd": 1726.34,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-27T08:43:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10183",
+    "customer": {
+      "name": "Linus Hamilton",
+      "email": "linus.hamilton@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-205",
+        "name": "Noise-cancelling headset",
+        "qty": 3,
+        "unit_price": 305.77
+      },
+      {
+        "sku": "SKU-564",
+        "name": "Mechanical keyboard",
+        "qty": 3,
+        "unit_price": 411.51
+      },
+      {
+        "sku": "SKU-382",
+        "name": "Mechanical keyboard",
+        "qty": 1,
+        "unit_price": 81.85
+      }
+    ],
+    "total_usd": 2233.69,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-10T08:27:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10184",
+    "customer": {
+      "name": "Hedy Liskov",
+      "email": "hedy.liskov@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-805",
+        "name": "Webcam 4K",
+        "qty": 2,
+        "unit_price": 23.1
+      },
+      {
+        "sku": "SKU-202",
+        "name": "Mechanical keyboard",
+        "qty": 2,
+        "unit_price": 300.12
+      }
+    ],
+    "total_usd": 646.44,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [],
+    "created_at": "2026-08-02T21:30:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10185",
+    "customer": {
+      "name": "Hedy Dijkstra",
+      "email": "hedy.dijkstra@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-719",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 359.08
+      }
+    ],
+    "total_usd": 718.16,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Lisbon",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-22T05:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10186",
+    "customer": {
+      "name": "Margaret Hamilton",
+      "email": "margaret.hamilton@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-700",
+        "name": "Webcam 4K",
+        "qty": 1,
+        "unit_price": 174.93
+      },
+      {
+        "sku": "SKU-340",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 341.93
+      },
+      {
+        "sku": "SKU-151",
+        "name": "Desk lamp",
+        "qty": 2,
+        "unit_price": 216.69
+      }
+    ],
+    "total_usd": 1634.1,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Osaka",
+      "carrier": "FedEx",
+      "tracking": "TRK1537729093"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-27T21:01:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10187",
+    "customer": {
+      "name": "Katherine Turing",
+      "email": "katherine.turing@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-138",
+        "name": "Webcam 4K",
+        "qty": 3,
+        "unit_price": 79.89
+      }
+    ],
+    "total_usd": 239.67,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-28T18:53:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10188",
+    "customer": {
+      "name": "Alan Torvalds",
+      "email": "alan.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-672",
+        "name": "Ergonomic mouse",
+        "qty": 2,
+        "unit_price": 401.07
+      },
+      {
+        "sku": "SKU-262",
+        "name": "USB-C dock",
+        "qty": 1,
+        "unit_price": 432.25
+      }
+    ],
+    "total_usd": 1234.39,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Berlin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-03T05:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10189",
+    "customer": {
+      "name": "Alan Hopper",
+      "email": "alan.hopper@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-657",
+        "name": "Thunderbolt cable",
+        "qty": 2,
+        "unit_price": 402.72
+      },
+      {
+        "sku": "SKU-721",
+        "name": "Standing desk mat",
+        "qty": 2,
+        "unit_price": 384.07
+      },
+      {
+        "sku": "SKU-802",
+        "name": "USB-C dock",
+        "qty": 2,
+        "unit_price": 391.25
+      }
+    ],
+    "total_usd": 2356.08,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Toronto",
+      "carrier": "DHL",
+      "tracking": "TRK5248902741"
+    },
+    "notes": "Leave at reception",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-23T08:43:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10190",
+    "customer": {
+      "name": "Alan Johnson",
+      "email": "alan.johnson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-756",
+        "name": "Webcam 4K",
+        "qty": 4,
+        "unit_price": 98.22
+      }
+    ],
+    "total_usd": 392.88,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Nairobi",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T19:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10191",
+    "customer": {
+      "name": "Hedy Hopper",
+      "email": "hedy.hopper@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-194",
+        "name": "Noise-cancelling headset",
+        "qty": 1,
+        "unit_price": 41.33
+      }
+    ],
+    "total_usd": 41.33,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Pune",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-11T19:05:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10192",
+    "customer": {
+      "name": "Hedy Thompson",
+      "email": "hedy.thompson@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-799",
+        "name": "Noise-cancelling headset",
+        "qty": 2,
+        "unit_price": 464.88
+      },
+      {
+        "sku": "SKU-963",
+        "name": "Ergonomic mouse",
+        "qty": 4,
+        "unit_price": 316.78
+      }
+    ],
+    "total_usd": 2196.88,
+    "currency": "USD",
+    "status": "processing",
+    "shipping": {
+      "city": "Austin",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-25T18:33:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10193",
+    "customer": {
+      "name": "Linus Lamarr",
+      "email": "linus.lamarr@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-188",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 123.25
+      },
+      {
+        "sku": "SKU-964",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 187.24
+      }
+    ],
+    "total_usd": 497.73,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Austin",
+      "carrier": "FedEx",
+      "tracking": "TRK9381613149"
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-20T13:32:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10194",
+    "customer": {
+      "name": "Alan Berners-Lee",
+      "email": "alan.berners-lee@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-420",
+        "name": "Desk lamp",
+        "qty": 3,
+        "unit_price": 41.51
+      }
+    ],
+    "total_usd": 124.53,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "UPS",
+      "tracking": "TRK4900526593"
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-27T06:52:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10195",
+    "customer": {
+      "name": "Barbara Torvalds",
+      "email": "barbara.torvalds@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-513",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 266.99
+      }
+    ],
+    "total_usd": 1067.96,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Pune",
+      "carrier": "UPS",
+      "tracking": "TRK9271148725"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-05T13:11:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10196",
+    "customer": {
+      "name": "Linus Liskov",
+      "email": "linus.liskov@example.com",
+      "tier": "enterprise"
+    },
+    "items": [
+      {
+        "sku": "SKU-469",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 16.28
+      },
+      {
+        "sku": "SKU-611",
+        "name": "27in monitor",
+        "qty": 4,
+        "unit_price": 100.6
+      }
+    ],
+    "total_usd": 418.68,
+    "currency": "USD",
+    "status": "delivered",
+    "shipping": {
+      "city": "Dublin",
+      "carrier": "UPS",
+      "tracking": "TRK9457832067"
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-05T21:44:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10197",
+    "customer": {
+      "name": "Tim Liskov",
+      "email": "tim.liskov@example.com",
+      "tier": "pro"
+    },
+    "items": [
+      {
+        "sku": "SKU-898",
+        "name": "27in monitor",
+        "qty": 2,
+        "unit_price": 357.54
+      },
+      {
+        "sku": "SKU-709",
+        "name": "Noise-cancelling headset",
+        "qty": 1,
+        "unit_price": 247.4
+      }
+    ],
+    "total_usd": 962.48,
+    "currency": "USD",
+    "status": "shipped",
+    "shipping": {
+      "city": "Bogotá",
+      "carrier": "UPS",
+      "tracking": "TRK7864934783"
+    },
+    "notes": "",
+    "tags": [],
+    "created_at": "2026-08-18T23:48:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10198",
+    "customer": {
+      "name": "Tim Thompson",
+      "email": "tim.thompson@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-129",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 195.12
+      },
+      {
+        "sku": "SKU-626",
+        "name": "Ergonomic mouse",
+        "qty": 3,
+        "unit_price": 186.04
+      }
+    ],
+    "total_usd": 1143.48,
+    "currency": "USD",
+    "status": "returned",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "Call before delivery",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-16T21:03:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  },
+  {
+    "order_id": "ORD-10199",
+    "customer": {
+      "name": "Alan van Rossum",
+      "email": "alan.vanrossum@example.com",
+      "tier": "free"
+    },
+    "items": [
+      {
+        "sku": "SKU-746",
+        "name": "Laptop stand",
+        "qty": 1,
+        "unit_price": 378.11
+      }
+    ],
+    "total_usd": 378.11,
+    "currency": "USD",
+    "status": "cancelled",
+    "shipping": {
+      "city": "Oslo",
+      "carrier": null,
+      "tracking": null
+    },
+    "notes": "",
+    "tags": [
+      "priority"
+    ],
+    "created_at": "2026-08-18T16:43:00Z",
+    "updated_at": null,
+    "internal_ref": null
+  }
+]

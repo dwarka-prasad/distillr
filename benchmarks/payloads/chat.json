@@ -1,0 +1,619 @@
+{
+  "model": "gpt-4o",
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are Acme's support assistant. Be concise. Never share internal ticket ids with customers. Escalate refunds over $500 to a human."
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about SSO setup. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For SSO setup, go to Settings and look for the Sso section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about API rate limits. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For API rate limits, go to Settings and look for the Api section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Also my order number is ORD-55213 and I was promised a refund of $640 for the damaged monitor.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks. I have noted order ORD-55213 and the $640 refund. Since it is above $500 I am escalating to a human agent; you will hear back within 24 hours.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about API rate limits. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For API rate limits, go to Settings and look for the Api section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about webhook retries. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For webhook retries, go to Settings and look for the Webhook section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about invoice download. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For invoice download, go to Settings and look for the Invoice section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about API rate limits. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For API rate limits, go to Settings and look for the Api section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about dark mode. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For dark mode, go to Settings and look for the Dark section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about invoice download. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For invoice download, go to Settings and look for the Invoice section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about invoice download. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For invoice download, go to Settings and look for the Invoice section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about webhook retries. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For webhook retries, go to Settings and look for the Webhook section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about dark mode. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For dark mode, go to Settings and look for the Dark section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about SSO setup. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For SSO setup, go to Settings and look for the Sso section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about webhook retries. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For webhook retries, go to Settings and look for the Webhook section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about API rate limits. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For API rate limits, go to Settings and look for the Api section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about SSO setup. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For SSO setup, go to Settings and look for the Sso section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about SSO setup. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For SSO setup, go to Settings and look for the Sso section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about dark mode. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For dark mode, go to Settings and look for the Dark section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about exporting data. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For exporting data, go to Settings and look for the Exporting section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about dark mode. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For dark mode, go to Settings and look for the Dark section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about password reset. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For password reset, go to Settings and look for the Password section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about webhook retries. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For webhook retries, go to Settings and look for the Webhook section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about API rate limits. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For API rate limits, go to Settings and look for the Api section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Let me know if that helps.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about seat pricing. Where do I find it?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For seat pricing, go to Settings and look for the Seat section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about mobile app crash. Is this available on the free plan?",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For mobile app crash, go to Settings and look for the Mobile section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about changing the billing email. It is not working as I expected.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For changing the billing email, go to Settings and look for the Changing section. Happy to walk you through it.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Hi, I have a question about webhook retries. It worked yesterday.",
+      "name": null
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. For webhook retries, go to Settings and look for the Webhook section. You can also check our docs.",
+      "tool_calls": null
+    },
+    {
+      "role": "user",
+      "content": "Any update on my refund? What was the amount again and which order was it?",
+      "name": null
+    }
+  ],
+  "temperature": 0.2,
+  "metadata": {
+    "session": "abc123",
+    "debug": null
+  }
+}

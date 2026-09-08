@@ -1,0 +1,68 @@
+{
+  "orders": {
+    "query": "orders for Ada Lovelace shipped to Berlin",
+    "needles": [
+      "ORD-10017",
+      "ORD-10088",
+      "ORD-10143"
+    ],
+    "top_k": 12,
+    "flatten": true,
+    "question": "Which order ids belong to Ada Lovelace's Berlin shipments and what are their tracking numbers?",
+    "file": "orders.json"
+  },
+  "chat": {
+    "query": "refund amount order number damaged monitor",
+    "needles": [
+      "ORD-55213",
+      "640"
+    ],
+    "keep_last": 6,
+    "top_k": 12,
+    "question": "What refund amount was promised and for which order?",
+    "file": "chat.json"
+  },
+  "rag_chunks": {
+    "query": "severity-1 incident response SLA status page update frequency",
+    "needles": [
+      "15 minutes",
+      "30 minutes",
+      "doc-007"
+    ],
+    "top_k": 5,
+    "question": "What is the sev-1 initial response SLA and how often is the status page updated?",
+    "file": "rag_chunks.json"
+  },
+  "api_object": {
+    "query": null,
+    "needles": [
+      "radia",
+      "42",
+      "Toronto"
+    ],
+    "top_k": null,
+    "drop_fields": [
+      "*_url",
+      "node_id",
+      "site_admin",
+      "type",
+      "permissions",
+      "plan"
+    ],
+    "flatten": true,
+    "question": "How many public repos does the member named Radia Perlman have and where is she located?",
+    "file": "api_object.json"
+  },
+  "logs": {
+    "query": "payment-service timeout gateway error",
+    "needles": [
+      "deadbeef00000085",
+      "deadbeef0000010f",
+      "deadbeef00000184",
+      "30000"
+    ],
+    "top_k": 8,
+    "question": "Which trace ids show the payment gateway timeouts and how long did they wait?",
+    "file": "logs.jsonl"
+  }
+}
