@@ -9,3 +9,5 @@ build/
 .distillr/
 *.db
 benchmarks/out/
+site/dist/
+node_modules/

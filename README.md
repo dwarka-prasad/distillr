@@ -1,5 +1,7 @@
 # Distillr
 
+[![CI](https://github.com/dwarka-prasad/distillr/actions/workflows/ci.yml/badge.svg)](https://github.com/dwarka-prasad/distillr/actions/workflows/ci.yml) [![Site](https://img.shields.io/badge/site-dwarka--prasad.github.io%2Fdistillr-7c3aed)](https://dwarka-prasad.github.io/distillr/) [![Roadmap](https://img.shields.io/badge/roadmap-help_wanted-0e8a16)](ROADMAP.md) ![License](https://img.shields.io/badge/license-Apache--2.0-blue)
+
 **Trim what is irrelevant, encode what is left in a token-efficient format, and know exactly how much you saved and whether it was safe.**
 
 Every team sending structured or semi-structured data to an LLM pays a syntax tax: repeated JSON keys, irrelevant rows, stale chat turns, verbose formatting. Point tools exist for pieces of this. Distillr combines them into one pipeline with per-stage accounting and an audit trail of everything it removed.
@@ -87,7 +89,7 @@ Phase 0 (this release): Stage 1 + Stage 3 + ledger + CLI + benchmarks. Stage 2 a
 - Phase 2: hosted proxy, dashboard on the ledger, usage-based billing
 - Phase 3: multi-provider routing, semantic caching, TS/JS SDK, enterprise features
 
-Self-hosted and OSS stay free. See [docs/](docs/) for the spec and design notes.
+Self-hosted and OSS stay free. Full plan with issues open to contributors: [ROADMAP.md](ROADMAP.md). Spec and design notes: [docs/spec.md](docs/spec.md), [docs/design.md](docs/design.md). Site: https://dwarka-prasad.github.io/distillr/
 
 ## Development
 

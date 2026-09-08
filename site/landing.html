@@ -1,0 +1,116 @@
+<section class="hero">
+  <div>
+    <span class="pill" data-reveal><i data-lucide="scissors" width="14"></i> v{{VERSION}} · Apache-2.0 · Python · <span id="stars">–</span> stars</span>
+    <h1 data-reveal>Cut LLM token spend <span class="g">without dropping what the model needed.</span></h1>
+    <p class="lead" data-reveal>Distillr sits between your app and your LLM provider. It trims the rows and fields that don't matter for this request, re-encodes what's left in the cheapest lossless format for your tokenizer, and keeps a ledger of every token saved and every field removed.</p>
+    <p data-reveal><a class="btn primary" href="/distillr/docs/readme.html">Get started <i data-lucide="arrow-right" width="16"></i></a> <a class="btn" href="/distillr/docs/results.html"><i data-lucide="bar-chart-3" width="16"></i> Benchmarks</a> <a class="btn" href="https://github.com/dwarka-prasad/distillr"><i data-lucide="github" width="16"></i> GitHub</a></p>
+  </div>
+  <div class="term" data-reveal aria-label="terminal">
+<span class="d">$</span> <span class="p">distillr analyze</span> orders.json --query <span class="y">"orders for Ada Lovelace shipped to Berlin"</span> --top-k 12
+
+<span class="d">orders.json  kind=tabular  tokenizer=o200k_base</span>
+Stage      Tokens in   Tokens out    Saved      %   Notes
+retrieve      47,352        2,828   <span class="g">44,524  94.0%</span>   kept 12/200 items · 190 removals
+encode         2,828        1,795   <span class="g"> 1,033  36.5%</span>   json · auto: toon=1,836 json=1,795 · lossless
+audit          1,795        1,795        0   0.0%   risk high=3 med=185 low=2
+<span class="g">total         47,352        1,795   45,557  96.2%</span>   48 ms
+
+<span class="d">$</span> <span class="p">distillr ledger</span>
+<span class="d">6 runs · 102,988 tokens in · 4,947 out · </span><span class="g">98,041 saved (95.2%)</span>
+  </div>
+</section>
+
+<section class="nums">
+  <div data-reveal><b data-count="95.2" data-decimals="1" data-suffix="%">0</b><span>tokens saved across five realistic payload types</span></div>
+  <div data-reveal><b data-count="100" data-suffix="%">0</b><span>needle recall: every fact the question needed survived</span></div>
+  <div data-reveal><b data-count="4">0</b><span>composable stages, each recording what it removed</span></div>
+  <div data-reveal><b data-count="1">0</b><span>line to integrate: <code>distillr.compress(payload)</code></span></div>
+</section>
+
+<section class="section">
+  <h2 data-reveal>The problem: you pay a syntax tax on every request</h2>
+  <p class="sub" data-reveal>Teams paste JSON API responses, whole chat histories and top-40 RAG chunks into prompts. Most of it is irrelevant to the question, and the rest is spelled in the most expensive way possible: repeated keys, nulls, indentation. Point tools exist for pieces of this (LLMLingua prunes tokens, TOON encodes compactly, RAG frameworks retrieve) but nothing combines them, measures each stage honestly, or tells you when a cut was unsafe.</p>
+  <div class="bars">
+    <div class="bar" data-reveal><small>200 orders + query</small><div class="track"><span data-w="3.8"></span></div><b>96.2%</b></div>
+    <div class="bar" data-reveal><small>60-turn support chat</small><div class="track"><span data-w="6.4"></span></div><b>93.6%</b></div>
+    <div class="bar" data-reveal><small>40 RAG chunks + query</small><div class="track"><span data-w="8.8"></span></div><b>91.2%</b></div>
+    <div class="bar" data-reveal><small>Nested API response</small><div class="track"><span data-w="21.6"></span></div><b>78.4%</b></div>
+    <div class="bar" data-reveal><small>400 JSONL log lines</small><div class="track"><span data-w="1.1"></span></div><b>98.9%</b></div>
+    <p class="sub" data-reveal style="margin-top:10px;font-size:13px">Bar = tokens remaining after Distillr, relative to the payload as pasted. tiktoken o200k_base. Needle recall 100% in every case.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2 data-reveal>How it solves it: four stages, one ledger</h2>
+  <p class="sub" data-reveal>Each stage is a pure function from data to (data, report). Every removal carries a path, a reason and a preview, so the audit stage can later tell whether the model leaned on something you cut.</p>
+  <div class="stages">
+    <div data-reveal><b>Retrieve / trim</b><span>Drop columns empty in every row, dedupe, allow/deny fields by glob, truncate long strings, rank items against your query with BM25 (or your embeddings), pin system and recent chat turns.</span></div>
+    <div data-reveal><b>Semantic (optional)</b><span>LLMLingua-2 token pruning at a target rate, structure tokens protected. Install with <code>pip install 'distillr[semantic]'</code>.</span></div>
+    <div data-reveal><b>Encode</b><span>TOON, compact JSON or CSV. <code>auto</code> encodes with each and keeps the fewest tokens on your tokenizer. Lossless: <code>distillr decode</code> proves it.</span></div>
+    <div data-reveal><b>Audit</b><span>Summarizes the manifest by risk. <code>result.check_answer(answer)</code> flags answers that reference removed content but not kept content.</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 data-reveal>Two lines to integrate</h2>
+  <p class="sub" data-reveal>Use the CLI to try it on a file, the SDK in your app, and the ledger to see what you saved over time.</p>
+  <div data-reveal>
+    <div class="tabs"><button class="on" data-tab="py">Python SDK</button><button data-tab="cli">CLI</button><button data-tab="pipe">Custom pipeline</button><button data-tab="audit">Audit survivability</button></div>
+    <div class="tabpanes">
+<pre class="on" data-pane="py"><code>import distillr
+
+result = distillr.compress(rows, query="orders shipped to Berlin", top_k=20)
+prompt = f"Answer from this data:\n{result.text}"
+print(result.tokens_before, "->", result.tokens_after, f"({result.savings_pct:.0f}% saved)")</code></pre>
+<pre data-pane="cli"><code>pip install distillr
+distillr analyze payload.json --query "refund for order ORD-55213" --top-k 12 --show
+distillr analyze members.json --drop "*_url,node_id" --flatten
+distillr ledger --days 7</code></pre>
+<pre data-pane="pipe"><code>from distillr import Pipeline, RetrieveStage, EncodeStage, AuditStage
+
+pipe = Pipeline(
+    [RetrieveStage(keep_fields=["id", "name", "*_at"], top_k=50, scorer=my_embeddings),
+     EncodeStage(format="auto", flatten=True),
+     AuditStage()],
+    model="claude-sonnet-5",
+)
+result = pipe.run(payload, query=user_question)</code></pre>
+<pre data-pane="audit"><code>answer = llm(prompt)
+for flag in result.check_answer(answer):
+    print(flag.risk, flag.path, "answer mentions", flag.matched, "which was removed:", flag.reason)
+
+# high  rows[88].shipping.tracking  answer mentions trk777000001  which was removed: low relevance (score 0.42)</code></pre>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2 data-reveal>Where it fits</h2>
+  <p class="sub" data-reveal>Distillr does not replace the pieces. It composes them and adds what none of them have.</p>
+  <table class="cmp" data-reveal>
+    <tr><th>Capability</th><th>LLMLingua</th><th>TOON</th><th>leanctx / llmslim</th><th>RAG frameworks</th><th>Distillr</th></tr>
+    <tr><td>Decide what to send (retrieval trim)</td><td class="n">no</td><td class="n">no</td><td class="n">partial</td><td class="y">yes</td><td class="y">yes</td></tr>
+    <tr><td>Semantic token pruning</td><td class="y">yes</td><td class="n">no</td><td class="y">yes</td><td class="n">no</td><td class="y">via LLMLingua-2</td></tr>
+    <tr><td>Token-efficient lossless encoding</td><td class="n">no</td><td class="y">yes</td><td class="n">no</td><td class="n">no</td><td class="y">TOON / JSON / CSV, measured</td></tr>
+    <tr><td>Per-stage token accounting</td><td class="n">no</td><td class="n">no</td><td class="n">no</td><td class="n">no</td><td class="y">ledger, SQLite or Postgres</td></tr>
+    <tr><td>Audit trail of removed content</td><td class="n">no</td><td class="n">no</td><td class="n">no</td><td class="n">no</td><td class="y">manifest + check_answer</td></tr>
+    <tr><td>CLI with zero integration</td><td class="n">no</td><td class="y">yes</td><td class="n">no</td><td class="n">no</td><td class="y">distillr analyze</td></tr>
+  </table>
+</section>
+
+<div class="honest" data-reveal><div class="box"><b>Two honest findings from the benchmark.</b> Most of the saving comes from Stage 1: sending the right rows matters far more than how you spell them. And TOON only beats compact JSON when rows are uniform and flat; on nested or sparse records JSON wins, sometimes by a lot. That is why the encoder measures instead of assuming, and why empty fields are removed column-wise rather than per cell.</div></div>
+
+<section class="section">
+  <h2 data-reveal>Roadmap</h2>
+  <p class="sub" data-reveal>Phase 0 (this release) validated the claim. What comes next follows the spec's order: prove the OSS engine, then the hosted wedge.</p>
+  <div class="grid" style="padding:0">
+    <div class="card" data-reveal><div class="ic"><i data-lucide="package-check" width="18"></i></div><h3>Phase 1 · OSS release</h3><p>LLMLingua-2 in the default pipeline, Python SDK polish, self-hosted OpenAI-compatible proxy in Docker, PyPI release.</p></div>
+    <div class="card" data-reveal><div class="ic"><i data-lucide="line-chart" width="18"></i></div><h3>Phase 2 · Hosted wedge</h3><p>Hosted proxy with zero infra, dashboard on the ledger (savings over time, per endpoint, audit-risk trend), usage-based billing.</p></div>
+    <div class="card" data-reveal><div class="ic"><i data-lucide="route" width="18"></i></div><h3>Phase 3 · Expand</h3><p>Multi-provider routing to the cheapest capable model, semantic caching, TypeScript SDK, SSO and on-prem for enterprise.</p></div>
+  </div>
+</section>
+
+<section class="cta" data-reveal>
+  <div><h2>Self-hosted stays free. Forever.</h2><p>Run the CLI on your own payloads in two minutes. Issues tagged help wanted are open to contributors.</p></div>
+  <a class="btn" href="/distillr/docs/roadmap.html">See the roadmap <i data-lucide="arrow-right" width="16"></i></a>
+</section>
