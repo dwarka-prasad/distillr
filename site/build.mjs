@@ -62,30 +62,39 @@ if (flow) {
   const conns = [...flow.querySelectorAll(".conn")];
   const maxTok = Math.max(...nodes.map((n) => Number(n.dataset.tokens || 0)));
   const fmt = (v) => Math.round(v).toLocaleString();
+  const widthFor = (tok) => Math.max(6, Math.sqrt(tok / maxTok) * 108);
+  const setBar = (n, tok) => { const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("width", widthFor(tok)); };
+  const setNum = (n, v) => { const t = n.querySelector(".n"); if (t) t.textContent = fmt(v); };
   const play = () => {
     flow.classList.remove("play");
-    nodes.forEach((n) => { n.style.opacity = 0; const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("height", 0); const t = n.querySelector(".n[data-count], .n"); if (t && !t.dataset.count) t.textContent = "0"; });
+    nodes.forEach((n) => { n.querySelector(".inner").style.opacity = 0; n.classList.remove("lit"); const bar = n.querySelector(".bar"); if (bar) bar.setAttribute("width", 0); setNum(n, 0); });
     conns.forEach((c) => { c.style.strokeDashoffset = 60; });
-    if (reduce) { nodes.forEach((n) => { n.style.opacity = 1; n.classList.add("lit"); const bar = n.querySelector(".bar"); const tok = Number(n.dataset.tokens); if (bar && tok) { const h = Math.max(4, Math.sqrt(tok / maxTok) * 60); bar.setAttribute("height", h); bar.setAttribute("y", 88 - h); } const t = n.querySelector(".n"); if (t && tok) t.textContent = fmt(tok); }); conns.forEach((c) => { c.style.strokeDashoffset = 0; }); flow.classList.add("play"); return; }
+    if (reduce) {
+      nodes.forEach((n) => { n.querySelector(".inner").style.opacity = 1; n.classList.add("lit"); const tok = Number(n.dataset.tokens || 0); if (tok) { setBar(n, tok); setNum(n, tok); } });
+      conns.forEach((c) => { c.style.strokeDashoffset = 0; });
+      flow.classList.add("play");
+      return;
+    }
     let prev = maxTok;
     nodes.forEach((n, i) => {
       const tok = Number(n.dataset.tokens || 0);
-      const bar = n.querySelector(".bar"), num = n.querySelector(".n:not([data-count])");
+      const inner = n.querySelector(".inner"), bar = n.querySelector(".bar");
       const at = i * 0.55;
-      animate(n, { opacity: [0, 1], y: [10, 0] }, { duration: 0.5, delay: at, easing: [0.22, 1, 0.36, 1] }).finished.then(() => n.classList.add("lit"));
-      if (conns[i - 1]) animate(conns[i - 1], { strokeDashoffset: [60, 0] }, { duration: 0.45, delay: at - 0.25, easing: "ease-out" });
+      animate(inner, { opacity: [0, 1], y: [10, 0] }, { duration: 0.5, delay: at, easing: [0.22, 1, 0.36, 1] }).finished.then(() => n.classList.add("lit"));
+      if (conns[i - 1]) animate(conns[i - 1], { strokeDashoffset: [60, 0] }, { duration: 0.45, delay: Math.max(0, at - 0.25), easing: "ease-out" });
       if (bar && tok) {
-        const h = Math.max(4, Math.sqrt(tok / maxTok) * 60);
-        const from = Math.max(4, Math.sqrt(prev / maxTok) * 60);
-        animate((p) => { const cur = from + (h - from) * p; bar.setAttribute("height", cur); bar.setAttribute("y", 88 - cur); }, { duration: 0.7, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
-        const start = i === 0 ? 0 : prev;
-        animate((p) => { num.textContent = fmt(start + (tok - start) * p); }, { duration: 0.8, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
+        const from = i === 0 ? 0 : widthFor(prev), to = widthFor(tok), start = i === 0 ? 0 : prev;
+        animate((p) => { bar.setAttribute("width", from + (to - from) * p); setNum(n, start + (tok - start) * p); }, { duration: 0.8, delay: at + 0.15, easing: [0.22, 1, 0.36, 1] });
         prev = tok;
       }
     });
     setTimeout(() => flow.classList.add("play"), nodes.length * 550);
   };
-  inView(flow, () => { play(); }, { amount: 0.4 });
+  // Show the finished state first (no-JS / slow-network safe), then animate on first view.
+  nodes.forEach((n) => { const tok = Number(n.dataset.tokens || 0); if (tok) { setBar(n, tok); setNum(n, tok); } n.classList.add("lit"); });
+  flow.classList.add("play");
+  let played = false;
+  inView(flow, () => { if (!played) { played = true; play(); } }, { amount: 0.4 });
   document.getElementById("replay")?.addEventListener("click", play);
 }
 // ---- cross-page transitions (fallback for browsers without cross-document view transitions) ----

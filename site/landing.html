@@ -70,36 +70,41 @@ audit          1,795        1,795        0   0.0%   risk high=3 med=185 low=2
       <!-- ledger drops -->
       <path class="drop" d="M260 160 V235"/><path class="drop" d="M440 160 V235"/><path class="drop" d="M620 160 V235"/><path class="drop" d="M800 160 V235"/>
       <!-- nodes -->
-      <g class="node" data-tokens="47352" data-bar="1" transform="translate(10,60)">
-        <rect class="box in" width="140" height="100" rx="14"/><text class="t" x="70" y="26">Payload</text><text class="s" x="70" y="42">200 orders, JSON</text>
-        <rect class="bar" x="16" y="88" width="108" height="0" rx="2"/><text class="n" x="70" y="76">0</text><text class="u" x="70" y="94">tokens</text>
-      </g>
-      <g class="node" data-tokens="2828" transform="translate(190,60)">
+      <g class="node" data-tokens="47352" transform="translate(10,60)"><g class="inner">
+        <rect class="box in" width="140" height="100" rx="14"/><text class="t" x="70" y="30">Payload</text><text class="s" x="70" y="46">200 orders, pretty JSON</text>
+        <text class="n" x="16" y="74" style="text-anchor:start">0</text><text class="u" x="124" y="74" style="text-anchor:end">tokens</text>
+        <rect class="track" x="16" y="80" width="108" height="8" rx="4"/><rect class="bar" x="16" y="80" width="0" height="8" rx="4"/>
+      </g></g>
+      <g class="node" data-tokens="2828" transform="translate(190,60)"><g class="inner">
         <rect class="box" width="140" height="100" rx="14"/><text class="k" x="70" y="18">STAGE 1</text><text class="t" x="70" y="36">Retrieve</text><text class="s" x="70" y="52">12 of 200 rows kept</text>
-        <rect class="bar" x="16" y="88" width="108" height="0" rx="2"/><text class="n" x="70" y="76">0</text><text class="u" x="70" y="94">tokens</text>
-      </g>
-      <g class="node" data-tokens="2828" transform="translate(370,60)">
+        <text class="n" x="16" y="74" style="text-anchor:start">0</text><text class="u" x="124" y="74" style="text-anchor:end">tokens</text>
+        <rect class="track" x="16" y="80" width="108" height="8" rx="4"/><rect class="bar" x="16" y="80" width="0" height="8" rx="4"/>
+      </g></g>
+      <g class="node" data-tokens="2828" transform="translate(370,60)"><g class="inner">
         <rect class="box opt" width="140" height="100" rx="14"/><text class="k" x="70" y="18">STAGE 2</text><text class="t" x="70" y="36">Semantic</text><text class="s" x="70" y="52">LLMLingua-2, optional</text>
-        <rect class="bar" x="16" y="88" width="108" height="0" rx="2"/><text class="n" x="70" y="76">0</text><text class="u" x="70" y="94">tokens</text>
-      </g>
-      <g class="node" data-tokens="1795" transform="translate(550,60)">
+        <text class="n" x="16" y="74" style="text-anchor:start">0</text><text class="u" x="124" y="74" style="text-anchor:end">tokens</text>
+        <rect class="track" x="16" y="80" width="108" height="8" rx="4"/><rect class="bar" x="16" y="80" width="0" height="8" rx="4"/>
+      </g></g>
+      <g class="node" data-tokens="1795" transform="translate(550,60)"><g class="inner">
         <rect class="box" width="140" height="100" rx="14"/><text class="k" x="70" y="18">STAGE 3</text><text class="t" x="70" y="36">Encode</text><text class="s" x="70" y="52">auto → json, lossless</text>
-        <rect class="bar" x="16" y="88" width="108" height="0" rx="2"/><text class="n" x="70" y="76">0</text><text class="u" x="70" y="94">tokens</text>
-      </g>
-      <g class="node" data-tokens="1795" transform="translate(730,60)">
+        <text class="n" x="16" y="74" style="text-anchor:start">0</text><text class="u" x="124" y="74" style="text-anchor:end">tokens</text>
+        <rect class="track" x="16" y="80" width="108" height="8" rx="4"/><rect class="bar" x="16" y="80" width="0" height="8" rx="4"/>
+      </g></g>
+      <g class="node" data-tokens="1795" transform="translate(730,60)"><g class="inner">
         <rect class="box" width="140" height="100" rx="14"/><text class="k" x="70" y="18">STAGE 4</text><text class="t" x="70" y="36">Audit</text><text class="s" x="70" y="52">190 removals tagged</text>
-        <rect class="bar" x="16" y="88" width="108" height="0" rx="2"/><text class="n" x="70" y="76">0</text><text class="u" x="70" y="94">tokens</text>
-      </g>
-      <g class="node out" transform="translate(910,72)">
+        <text class="n" x="16" y="74" style="text-anchor:start">0</text><text class="u" x="124" y="74" style="text-anchor:end">tokens</text>
+        <rect class="track" x="16" y="80" width="108" height="8" rx="4"/><rect class="bar" x="16" y="80" width="0" height="8" rx="4"/>
+      </g></g>
+      <g class="node out" transform="translate(910,72)"><g class="inner">
         <rect class="box in" width="80" height="76" rx="14"/><text class="t" x="40" y="34">Prompt</text><text class="s" x="40" y="52">→ LLM</text>
-      </g>
+      </g></g>
       <!-- ledger -->
       <g class="ledger" transform="translate(190,240)">
         <rect width="680" height="70" rx="14"/>
-        <text class="t" x="24" y="30" text-anchor="start">Token ledger</text>
-        <text class="s" x="24" y="52" text-anchor="start">per run, per stage: tokens before/after, removal manifest, audit flags · SQLite locally, Postgres hosted</text>
-        <text class="n" x="656" y="30" text-anchor="end" data-count="45557" data-suffix=" saved">0</text>
-        <text class="s" x="656" y="52" text-anchor="end">96.2% of this request</text>
+        <text class="t" x="24" y="30" style="text-anchor:start">Token ledger</text>
+        <text class="s" x="24" y="52" style="text-anchor:start">per run, per stage: tokens before/after, removal manifest, audit flags · SQLite locally, Postgres hosted</text>
+        <text class="n" x="656" y="30" style="text-anchor:end" data-count="45557" data-suffix=" saved">0</text>
+        <text class="s" x="656" y="52" style="text-anchor:end">96.2% of this request</text>
       </g>
       <!-- particles -->
       <circle class="dot" r="4"><animateMotion dur="1.6s" repeatCount="indefinite" begin="0s"><mpath href="#c1"/></animateMotion></circle>
@@ -108,7 +113,7 @@ audit          1,795        1,795        0   0.0%   risk high=3 med=185 low=2
       <circle class="dot" r="2.8"><animateMotion dur="1.6s" repeatCount="indefinite" begin="1.2s"><mpath href="#c4"/></animateMotion></circle>
       <circle class="dot" r="2.8"><animateMotion dur="1.6s" repeatCount="indefinite" begin="1.4s"><mpath href="#c5"/></animateMotion></circle>
     </svg>
-    <div class="flow-legend"><span><i class="sw a"></i>tokens remaining (square-root scale)</span><span><i class="sw b"></i>lossless stage</span><span><i class="sw c"></i>optional stage</span><button type="button" id="replay" class="btn" style="padding:6px 12px;font-size:13px"><i data-lucide="rotate-ccw" width="14"></i> Replay</button></div>
+    <div class="flow-legend"><span><i class="sw a"></i>tokens remaining, bar on a square-root scale</span><span><i class="sw b"></i>lossless stage</span><span><i class="sw c"></i>optional stage</span><button type="button" id="replay" class="btn" style="padding:6px 12px;font-size:13px"><i data-lucide="rotate-ccw" width="14"></i> Replay</button></div>
   </div>
 </section>
 

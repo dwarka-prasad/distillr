@@ -28,7 +28,7 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:32px 16px;bor
 .pill{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--brand);border-radius:999px;padding:6px 12px;font-size:12px;font-weight:600}
 .btn{display:inline-flex;align-items:center;gap:8px;border-radius:12px;padding:12px 20px;font-weight:600;border:1px solid var(--line);background:var(--surface);color:var(--fg);transition:transform .15s,box-shadow .15s}.btn:hover{text-decoration:none;transform:translateY(-1px)}
 .btn.primary{background:linear-gradient(180deg,var(--brand),color-mix(in srgb,var(--brand) 85%,black));border-color:transparent;color:#fff;box-shadow:0 10px 24px -12px var(--brand)}
-.term{background:#0f0c1a;color:#e6e1f5;border-radius:16px;padding:18px 20px;font:13px/1.55 "JetBrains Mono",monospace;box-shadow:0 40px 90px -40px rgba(0,0,0,.6);border:1px solid #2a2540;overflow:auto}.term .p{color:#a78bfa}.term .g{color:#34d399}.term .d{color:#8f89a8}.term .y{color:#fbbf24}
+.term{white-space:pre-wrap;background:#0f0c1a;color:#e6e1f5;border-radius:16px;padding:18px 20px;font:13px/1.55 "JetBrains Mono",monospace;box-shadow:0 40px 90px -40px rgba(0,0,0,.6);border:1px solid #2a2540;overflow:auto}.term .p{color:#a78bfa}.term .g{color:#34d399}.term .d{color:#8f89a8}.term .y{color:#fbbf24}
 .bars{max-width:1140px;margin:0 auto;padding:16px 24px 8px}.bar{display:grid;grid-template-columns:200px 1fr 90px;gap:14px;align-items:center;margin:8px 0;font-size:14px}.bar .track{height:14px;background:var(--surface);border:1px solid var(--line);border-radius:999px;overflow:hidden}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand2));border-radius:999px}.bar b{text-align:right;font-variant-numeric:tabular-nums}.bar small{color:var(--muted)}
 .grid{max-width:1140px;margin:0 auto;padding:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px;transition:transform .25s,box-shadow .25s,border-color .25s}.card:hover{transform:translateY(-3px);box-shadow:0 24px 50px -30px rgba(0,0,0,.35);border-color:color-mix(in srgb,var(--brand) 40%,var(--line))}
@@ -52,16 +52,16 @@ footer{text-align:center;color:var(--muted);font-size:13px;padding:32px 16px;bor
 .flow .box.in{fill:var(--soft)}.flow .box.opt{stroke-dasharray:5 4}
 .flow text{text-anchor:middle;fill:var(--fg)}.flow .t{font-size:14px;font-weight:700;letter-spacing:-.01em}.flow .s{font-size:9.5px;fill:var(--muted)}.flow .k{font-size:8.5px;font-weight:700;fill:var(--brand);letter-spacing:.08em}
 .flow .n{font-size:15px;font-weight:700;font-variant-numeric:tabular-nums;fill:var(--fg)}.flow .u{font-size:8.5px;fill:var(--muted)}
-.flow .bar{fill:url(#fg);opacity:.9}
-.flow .conn{fill:none;stroke:var(--brand);stroke-width:2;marker-end:url(#arr);stroke-dasharray:60;stroke-dashoffset:60;opacity:.9}
+.flow .bar{fill:url(#fg)}.flow .track{fill:var(--line)}
+.flow .conn{fill:none;stroke:var(--brand);stroke-width:2;marker-end:url(#arr);stroke-dasharray:60;stroke-dashoffset:0;opacity:.9}
 .flow .drop{fill:none;stroke:var(--muted);stroke-width:1.2;stroke-dasharray:3 4;opacity:0;transition:opacity .6s}
 .flow.play .drop{opacity:.7}
 .flow .ledger rect{fill:var(--bg);stroke:var(--line);stroke-width:1.2}.flow .ledger .n{fill:var(--ok);font-size:16px}
 .flow .dot{fill:var(--brand2);opacity:0;filter:drop-shadow(0 0 6px var(--brand2))}.flow.play .dot{opacity:1}
-.flow .node{opacity:0;transform-box:fill-box;transform-origin:center}
+.flow .inner{opacity:1}
 .flow-legend{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center;padding:12px 4px 4px;font-size:12.5px;color:var(--muted)}
 .flow-legend span{display:inline-flex;align-items:center;gap:6px}.sw{width:14px;height:8px;border-radius:3px;display:inline-block}.sw.a{background:linear-gradient(90deg,var(--brand),var(--brand2))}.sw.b{border:1.5px solid var(--brand);background:var(--soft)}.sw.c{border:1.5px dashed var(--brand)}
-@media (prefers-reduced-motion:reduce){.flow .node{opacity:1}.flow .conn{stroke-dashoffset:0}.flow .dot,.flow animateMotion{display:none}}
+@media (prefers-reduced-motion:reduce){.flow .dot,.flow animateMotion{display:none}}
 /* ---- cross-page transitions ---- */
 @view-transition{navigation:auto}
 ::view-transition-old(root){animation:vt-out .18s ease-in both}::view-transition-new(root){animation:vt-in .28s cubic-bezier(.22,1,.36,1) both}
